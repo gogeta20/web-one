@@ -1,0 +1,91 @@
+version: '3.1'
+services:
+  www:
+    container_name: backend
+    build:
+      dockerfile: dockerfiles/backend/Dockerfile
+      context: .
+    ports:
+      - '80:80'
+    volumes:
+      - ../project/backend:/var/www/html
+      - ../project/shared:/var/www/shared
+      - ../conf/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ../conf/default-ssl.conf:/etc/apache2/sites-available/default-ssl.conf
+      - ../conf/ports.conf:/etc/apache2/ports.conf
+      - ../conf/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini:delegated
+      - ../conf/hosts:/etc/hosts
+      # - ../project/shared/original/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      # - ../project/shared/original/default-ssl.conf:/etc/apache2/sites-available/default-ssl.conf
+    links:
+      - db
+    networks:
+      - default
+  db:
+    container_name: db
+    image: mysql
+    ports:
+      - '3306:3306'
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: articuloDualDB
+      MYSQL_PASSWORD: gbcv123M
+      MYSQL_ROOT_PASSWORD: itachi
+    volumes:
+      - ../project/db/files/sql:/docker-entrypoint-initdb.d
+      - ../project/db/files:/var/www/html
+      - ../conf:/etc/mysql/conf.d
+      - persistent:/var/lib/mysql
+    networks:
+      - default
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db:db
+    ports:
+      - 8000:80
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: test
+      MYSQL_ROOT_PASSWORD: test
+    # volumes:
+    #   - ../conf/phpmyadmin/000-default.conf:/etc/apache2/sites-available/000-default.conf
+  frontend:
+    container_name: frontend
+    # image:  node:18-alpine
+    # image: node:20.9.0-alpine
+    # image: node:20.9.0-slim
+    build:
+      dockerfile: dockerfiles/front/Dockerfile
+      context: .
+    # image: node:20.9.0-alpine
+    restart: unless-stopped
+    # env_file: .env
+    working_dir: /app
+    #entrypoint: /bin/sh
+    # stdin_open: true
+    command: "/usr/local/bin/npm run dev"
+    # command: "npm install --save nuxt"
+    #CMD [ "npm", "run", "dev" ]
+    # tty: true
+    volumes:
+      - ../project/front:/app
+    ports:
+      - "3000:3000"
+      # - "5173:5173"
+    networks:
+      - default
+
+#  nginx:
+#    container_name: nginx_store
+#    image: nginx
+#    ports:
+#      - "8080:80"
+#    volumes:
+##      - ./:/var/www
+#      - ../conf/nginx.conf:/etc/nginx/conf.d/default.conf
+#    networks:
+#      - default
+volumes:
+  persistent:

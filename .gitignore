@@ -1,0 +1,26 @@
+
+###< symfony/phpunit-bridge ###
+###Docker###
+#/database/data/*
+#!/database/data/.gitkeep
+#!/logs/nginx/.gitkeep
+### Fin Docker###
+.env*
+**/.idea/**
+**/var/**
+**/vendor/**
+**/sessions/**
+**/logs/**
+**/zips/**
+**.zip
+
+#front
+**/node_modules/**
+**/.nuxt/**
+**dist
+**/.output/**
+
+
+#.phpunit
+#.phpunit.result.cache
+#/phpunit.xml
