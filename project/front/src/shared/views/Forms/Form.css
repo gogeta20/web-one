@@ -1,0 +1,48 @@
+.section-basic {
+  display: grid;
+  gap: 2rem 1rem;
+  grid-auto-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+}
+.section-direccion {
+  display: grid;
+  gap: 2rem 1rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "div-initial div-initial div-second div-second"
+    "input-one  input-two input-three input-four";
+}
+.section-contacto {
+  display: grid;
+  gap: 2rem 1rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "div-initial div-initial"
+    "input-one  input-two";
+}
+.div-initial {
+  grid-area: div-initial;
+}
+.div-second {
+  grid-area: div-second;
+}
+.input-one  {
+  grid-area: input-one ;
+}
+.input-two {
+  grid-area: input-two;
+}
+.input-three {
+  grid-area: input-three;
+}
+.input-four {
+  grid-area: input-four;
+}
+.bloque {
+  padding: 1rem;
+}
+.sombra {
+  background-color: rgba(238, 238, 238, 0.801);
+}

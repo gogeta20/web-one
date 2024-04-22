@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "idNotificacion": 994,
+      "message": "Notificacion actualizada"
+    },
+    {
+      "idNotificacion": 8,
+      "message": "Notificacion actualizada"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

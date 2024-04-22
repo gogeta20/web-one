@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 2223,
+      "campoMonte": "ALLEDO (2223)",
+      "nomemonte": "ALLEDO",
+      "codProvincia": 32,
+      "codConcello": 32076,
+      "codpropiedade": 11,
+      "nomeConcello": "San Cristovo de Cea"
+    },
+    {
+      "id": 2224,
+      "campoMonte": "Test ALLEDO (2223)",
+      "nomemonte": "Test ALLEDO",
+      "codProvincia": 32,
+      "codConcello": 32077,
+      "codpropiedade": 11,
+      "nomeConcello": "Test San Cristovo de Cea"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

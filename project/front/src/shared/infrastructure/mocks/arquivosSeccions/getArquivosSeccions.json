@@ -1,0 +1,1549 @@
+{
+	"data": [
+		{
+			"seccion": "CARTOGRAFIA_APOIO",
+			"descricion": "Limitacións",
+			"subsecciones": [
+				{
+					"subseccion": "1",
+					"dataSubseccion": {
+						"idsubseccion": 1,
+						"descricion": "Carpetas Ficha",
+						"ruta": "carpetasficha/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 142,
+							"descricion": "Base Cartográfica Pontevedra",
+							"ruta": "BaseCartograficaPontevedra_2021.zip",
+							"activo": "N",
+							"dataModificacion": "2021-06-28 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 161,
+							"descricion": "Base Cartográfica Ourense",
+							"ruta": "Base_Cartografica_Ourense.zip",
+							"activo": "N",
+							"dataModificacion": "2021-02-16 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 167,
+							"descricion": "Base Cartográfica Lugo",
+							"ruta": "BaseCartograficaLugo.zip",
+							"activo": "N",
+							"dataModificacion": "2017-10-26 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 168,
+							"descricion": "Base Cartográfica Coruña",
+							"ruta": "BaseCartograficaCoruna.zip",
+							"activo": "N",
+							"dataModificacion": "2017-09-19 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "5",
+					"dataSubseccion": {
+						"idsubseccion": 5,
+						"descricion": "ArcGis",
+						"ruta": "ArcGis/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 143,
+							"descricion": "Plantilla Plano Situación ArcGis formato A3  (version 10.2)",
+							"ruta": "A1_plantilla (10.2.1).mxd",
+							"activo": "N",
+							"dataModificacion": "2018-10-25 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 144,
+							"descricion": "Plantilla resto Planos ArcGis formato A3 (version 9.3)",
+							"ruta": "Resto_plantillas (9.3).mxd",
+							"activo": "N",
+							"dataModificacion": "2018-10-25 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 145,
+							"descricion": "Plantilla Plano Situación ArcGis formato A3 (version 9.3)",
+							"ruta": "A1_plantilla (9.3).mxd",
+							"activo": "N",
+							"dataModificacion": "2018-10-25 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 158,
+							"descricion": "Plantilla resto Planos ArcGis formato A3  (version 10.2)",
+							"ruta": "Resto_plantillas (10.2.1).mxd",
+							"activo": "N",
+							"dataModificacion": "2018-10-25 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 159,
+							"descricion": "Plantilla Plano Situación ArcGis formato A3 (version 10.0)",
+							"ruta": "A1_plantilla (10.0).mxd",
+							"activo": "N",
+							"dataModificacion": "2018-10-25 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 160,
+							"descricion": "Plantilla resto Planos ArcGis formato A3 (version 10.0)",
+							"ruta": "Resto_plantillas (10.0).mxd",
+							"activo": "N",
+							"dataModificacion": "2018-10-25 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "6",
+					"dataSubseccion": {
+						"idsubseccion": 6,
+						"descricion": "QGis",
+						"ruta": "QGis/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 146,
+							"descricion": "Logo MAPAMA",
+							"ruta": "logo MAPAMA.png",
+							"activo": "N",
+							"dataModificacion": "2019-08-27 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 181,
+							"descricion": "Logo Consellería do Medio Rural",
+							"ruta": "logo Xunta.png",
+							"activo": "N",
+							"dataModificacion": "2019-08-27 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 186,
+							"descricion": "Logo Feader",
+							"ruta": "Feader.png",
+							"activo": "N",
+							"dataModificacion": "2019-08-27 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 10,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Modelos de presentación de mapas",
+								"ruta": "axuda/cartografia/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "main",
+					"dataSubseccion": "-",
+					"arquivos": [
+						{
+							"id": 163,
+							"descricion": "SHP Inventario Forestal Nacional 4 Coruña",
+							"ruta": "IFN4_15.zip",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 2,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Estratos de inventariación",
+								"ruta": "axuda/cartografia/estratos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 164,
+							"descricion": "SHP Inventario Forestal Nacional 4 Lugo",
+							"ruta": "IFN4_27.zip",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 2,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Estratos de inventariación",
+								"ruta": "axuda/cartografia/estratos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 165,
+							"descricion": "SHP Inventario Forestal Nacional 4 Ourense",
+							"ruta": "IFN4_32.zip",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 2,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Estratos de inventariación",
+								"ruta": "axuda/cartografia/estratos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 166,
+							"descricion": "SHP Inventario Forestal Nacional 4 Pontevedra",
+							"ruta": "IFN4_36.zip",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 2,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Estratos de inventariación",
+								"ruta": "axuda/cartografia/estratos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 216,
+							"descricion": "Augas de galicia",
+							"ruta": "Augas de Galicia.docx",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 7,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Recomendacións dos organismos",
+								"ruta": "axuda/cartografia/recomendacions_organismos/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "2",
+					"dataSubseccion": {
+						"idsubseccion": 2,
+						"descricion": "Sistema Rexistral Forestal de Galicia",
+						"ruta": "rexistros/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 169,
+							"descricion": "SHP Montes de Utilidad Pública",
+							"ruta": "BaseCartograficaCUP_20170719.zip",
+							"activo": "N",
+							"dataModificacion": "2017-07-19 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 170,
+							"descricion": "SHP Rexistro de Montes Veciñais Man Común",
+							"ruta": "InformacionSHPMVMC_20170830.zip",
+							"activo": "N",
+							"dataModificacion": "2017-08-30 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 171,
+							"descricion": "SHP Montes de xestión pública",
+							"ruta": "BaseCartograficaMXP_20170719.zip",
+							"activo": "N",
+							"dataModificacion": "2017-07-19 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 3,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Situación",
+								"ruta": "axuda/cartografia/situacion/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "3",
+					"dataSubseccion": {
+						"idsubseccion": 3,
+						"descricion": "Limitacións hidrográficas",
+						"ruta": "hidrograficas/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 172,
+							"descricion": "Shape bacias (fonte de datos: IET)",
+							"ruta": "SHP_Bacias.zip",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 4,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Limitacións",
+								"ruta": "axuda/cartografia/limitacions/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 173,
+							"descricion": "Shape cursos fluviais (fonte de datos: IET)",
+							"ruta": "Cursos_fluviais_XORFOR_20200210.zip",
+							"activo": "N",
+							"dataModificacion": "2020-02-14 00:00:00",
+							"usuario": "rlopber",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 4,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Limitacións",
+								"ruta": "axuda/cartografia/limitacions/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "4",
+					"dataSubseccion": {
+						"idsubseccion": 4,
+						"descricion": "Outras limitacións",
+						"ruta": "outras/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 174,
+							"descricion": "SHP Rexistro de pastoreo",
+							"ruta": "SHP_Pastoreo.zip",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 4,
+								"codRecurso": "CARTOGRAFIA_APOIO",
+								"descricion": "Limitacións",
+								"ruta": "axuda/cartografia/limitacions/",
+								"activo": "S"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"seccion": "MANUAIS",
+			"descricion": "Manuais",
+			"subsecciones": [
+				{
+					"subseccion": "20",
+					"dataSubseccion": {
+						"idsubseccion": 20,
+						"descricion": "Manual de cartografía",
+						"ruta": "Cartografia/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "verSubseccionCartografia"
+					},
+					"arquivos": [
+						{
+							"id": 147,
+							"descricion": "Manual de Cartografía",
+							"ruta": "Manual cartografia XORFOR Version 2.26.0.pdf",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "21",
+					"dataSubseccion": {
+						"idsubseccion": 21,
+						"descricion": "Información complementaria",
+						"ruta": "InformacionComplementaria/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "verSubseccionInformacionComplementaria"
+					},
+					"arquivos": [
+						{
+							"id": 150,
+							"descricion": "Instrución xeral para aplicación do Decreto 52/2014",
+							"ruta": "20180228 - Instruccion IOGF (1.7).pdf",
+							"activo": "N",
+							"dataModificacion": "2020-05-25 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 157,
+							"descricion": "FAQs Orde 28 de decembro de 2017 de subvencións de ordenación o xestión forestais",
+							"ruta": "20180227 - RPF Ayudas IOGF (v02).pdf",
+							"activo": "N",
+							"dataModificacion": "2020-05-25 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 176,
+							"descricion": "Biomasa en estratos arbóreos do IFN4",
+							"ruta": "Biomasa en estratos IFN4.xls",
+							"activo": "N",
+							"dataModificacion": "2020-05-25 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 177,
+							"descricion": "Instrución inclusión montes certificación",
+							"ruta": "Instrucion_inclusion_montes_certificacion.pdf",
+							"activo": "N",
+							"dataModificacion": "2021-09-13 00:00:00",
+							"usuario": "ue05005",
+							"publico": "N",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 187,
+							"descricion": "Biomasa en estratos arbóreos do IFN4",
+							"ruta": "20161128 - Biomasa por estratos y por especies.pdf",
+							"activo": "N",
+							"dataModificacion": "2020-05-25 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "8",
+					"dataSubseccion": {
+						"idsubseccion": 8,
+						"descricion": "Manual de usuario de Organismos externos",
+						"ruta": "ManualOrganismosExternos/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "verSubseccionManualesOrganismos"
+					},
+					"arquivos": [
+						{
+							"id": 162,
+							"descricion": "Manual de usuario de Organismos externos",
+							"ruta": "XORFOR_MU_UsuariosOrganismoExternos_v.01.03.pdf",
+							"activo": "N",
+							"dataModificacion": "2020-12-01 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "7",
+					"dataSubseccion": {
+						"idsubseccion": 7,
+						"descricion": "Manual usuario externo",
+						"ruta": "ManualUsuarioExterno/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "verSubseccionManualesExternos"
+					},
+					"arquivos": [
+						{
+							"id": 175,
+							"descricion": "Manual usuario externo",
+							"ruta": "XORFOR2022_MU_v.01.00.pdf",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 180,
+							"descricion": "Anexo Táboas Mestras",
+							"ruta": "ANEXO_TABOAS_MESTRAS_VERSION_2.26.0.pdf",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "17",
+					"dataSubseccion": {
+						"idsubseccion": 17,
+						"descricion": "Manual de usuario (Usuarios internos)",
+						"ruta": "ManualUsuarioInterno/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "verSubseccionManualesInternos"
+					},
+					"arquivos": [
+						{
+							"id": 184,
+							"descricion": "Manual de usuarios internos",
+							"ruta": "XORFOR_MU_UsuariosInternos_v.01.29.pdf",
+							"activo": "N",
+							"dataModificacion": "2021-09-17 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 189,
+							"descricion": "Manual de usuario Visor GIS",
+							"ruta": "XORFOR_Visor GIS_MU_v.01.01.pdf",
+							"activo": "N",
+							"dataModificacion": "2021-07-09 00:00:00",
+							"usuario": "ue05827",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						}
+					]
+				},
+				{
+					"subseccion": "18",
+					"dataSubseccion": {
+						"idsubseccion": 18,
+						"descricion": "Validacións realizadas durante a carga de datos",
+						"ruta": "validacionsCargaPlanos/",
+						"activo": "S",
+						"dataModificacion": "-",
+						"usuario": "-",
+						"permisoLectura": "-"
+					},
+					"arquivos": [
+						{
+							"id": 188,
+							"descricion": "Validacións na carga de datos",
+							"ruta": "XORFOR2022_MU_Validacions_v.1.0.pdf",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 1,
+								"codRecurso": "MANUAIS",
+								"descricion": "Manuais",
+								"ruta": "axuda/manuais/",
+								"activo": "S"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"seccion": "PLANOS_TIPO",
+			"descricion": "Planos tipo",
+			"subsecciones": [
+				{
+					"subseccion": "main",
+					"dataSubseccion": "-",
+					"arquivos": [
+						{
+							"id": 148,
+							"descricion": "Cartografía proxectos de ordenación",
+							"ruta": "CartografiaCompletaPO.zip",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 8,
+								"codRecurso": "PLANOS_TIPO",
+								"descricion": "Planos tipo",
+								"ruta": "axuda/planos_tipo/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 149,
+							"descricion": "Cartografía documentos simples e compartidos de xestión",
+							"ruta": "CartografiaCompletaDX.zip",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 8,
+								"codRecurso": "PLANOS_TIPO",
+								"descricion": "Planos tipo",
+								"ruta": "axuda/planos_tipo/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 178,
+							"descricion": "Táboas Mestras",
+							"ruta": "TaboasMestras.zip",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 8,
+								"codRecurso": "PLANOS_TIPO",
+								"descricion": "Planos tipo",
+								"ruta": "axuda/planos_tipo/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 182,
+							"descricion": "Cartografía proxectos de ordenación para subvención",
+							"ruta": "CartografiaCompletaSubvencionPO.zip",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 8,
+								"codRecurso": "PLANOS_TIPO",
+								"descricion": "Planos tipo",
+								"ruta": "axuda/planos_tipo/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 183,
+							"descricion": "Cartografía documentos simples e compartidos de xestión para subvención",
+							"ruta": "CartografiaCompletaSubvencionDX.zip",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 8,
+								"codRecurso": "PLANOS_TIPO",
+								"descricion": "Planos tipo",
+								"ruta": "axuda/planos_tipo/",
+								"activo": "S"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"seccion": "IMPORTACION_DATOS",
+			"descricion": "Follas de cálculo para importar datos",
+			"subsecciones": [
+				{
+					"subseccion": "main",
+					"dataSubseccion": "-",
+					"arquivos": [
+						{
+							"id": 151,
+							"descricion": "PO - Datos xerais: Titulares",
+							"ruta": "A2.TaboaTitularesCatastrais.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 152,
+							"descricion": "DSX/DCX - Datos xerais: Titulares",
+							"ruta": "DSDC1.TaboaTitularesCatastrais.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 153,
+							"descricion": "PO - Inventario: valores dasométricos",
+							"ruta": "D1.Inventario.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 154,
+							"descricion": "PO - Plan especial: Actuaciones",
+							"ruta": "F.TaboaActuacions.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 155,
+							"descricion": "Adhesión a modelos selvícolas (Interno)",
+							"ruta": "importacionAdhesion.xls",
+							"activo": "N",
+							"dataModificacion": "2021-02-26 00:00:00",
+							"usuario": "ue05005",
+							"publico": "N",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 156,
+							"descricion": "Adhesión a modelos selvícolas",
+							"ruta": "importacionAdhesion_OAV.xls",
+							"activo": "N",
+							"dataModificacion": "2021-02-26 00:00:00",
+							"usuario": "ue05005",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 179,
+							"descricion": "PO - Plan xeral: Datos xerais",
+							"ruta": "E.DatosXerais.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 185,
+							"descricion": "PO - Plan xeral: Datos responsables pastos",
+							"ruta": "E.DatosResponsablesPastos.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 190,
+							"descricion": "DSX/DCX - Plan forestal: Datos responsables pastos",
+							"ruta": "DSDC7.DatosResponsablesPastos.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 191,
+							"descricion": "PO - Inventario: Actividades sociorecreativas",
+							"ruta": "D2.ActividadesSociorecreativas.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 192,
+							"descricion": "PO - Inventario: Outros aproveitamentos forestais",
+							"ruta": "D1.OutrosAproveitamentosForestais.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 193,
+							"descricion": "PO - Medio/Estación",
+							"ruta": "ExcelClimatoloxia.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 194,
+							"descricion": "Persoas no instrumento",
+							"ruta": "PersoasInstrumento.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 195,
+							"descricion": "PO - Plan forestal",
+							"ruta": "PlanForestal.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 196,
+							"descricion": "DSX/DCX - Plan forestal: Datos xerais",
+							"ruta": "DSDC7.DatosXerais.xls",
+							"activo": "N",
+							"dataModificacion": "2022-01-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 9,
+								"codRecurso": "IMPORTACION_DATOS",
+								"descricion": "Follas de cálculo para importar datos",
+								"ruta": "axuda/importacion_datos/",
+								"activo": "S"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"seccion": "PLANTILLAS_REDACCION",
+			"descricion": "Plantillas de redacción",
+			"subsecciones": [
+				{
+					"subseccion": "main",
+					"dataSubseccion": "-",
+					"arquivos": [
+						{
+							"id": 141,
+							"descricion": "Informe resumo técnico 2022",
+							"ruta": "Plantilla_InformeResumenTecnico2022.odt",
+							"activo": "N",
+							"dataModificacion": "2021-12-28 00:00:00",
+							"usuario": "ue05005",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 5,
+								"codRecurso": "PLANTILLAS_REDACCION",
+								"descricion": "Plantillas de redacción",
+								"ruta": "plantillas/redaccion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 197,
+							"descricion": "Recibo presentación de instrumento para subvención",
+							"ruta": "Plantilla_ReciboPresentacionShapes_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2020-05-25 00:00:00",
+							"usuario": "ue05005",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 5,
+								"codRecurso": "PLANTILLAS_REDACCION",
+								"descricion": "Plantillas de redacción",
+								"ruta": "plantillas/redaccion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 198,
+							"descricion": "Recibo presentación AMS",
+							"ruta": "Plantilla_ReciboPresentacionAms_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-06-23 00:00:00",
+							"usuario": "ue06507",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 5,
+								"codRecurso": "PLANTILLAS_REDACCION",
+								"descricion": "Plantillas de redacción",
+								"ruta": "plantillas/redaccion/",
+								"activo": "S"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"seccion": "PLANTILLAS_TRAMITACION",
+			"descricion": "Plantillas de tramitación",
+			"subsecciones": [
+				{
+					"subseccion": "main",
+					"dataSubseccion": "-",
+					"arquivos": [
+						{
+							"id": 199,
+							"descricion": "Notificación requirindo a subsanación de defectos",
+							"ruta": "Modelo_D52-A3_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 200,
+							"descricion": "Solicitud de informe a Aguas de Galicia.",
+							"ruta": "Modelo_D52-B4_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 201,
+							"descricion": "Solicitud de informe ao Servizo de Patrimonio Natural",
+							"ruta": "Modelo_D52-B5_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 202,
+							"descricion": "Solicitud de informe o Servizo de Patrimonio Cultural",
+							"ruta": "Modelo_D52-B6_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-26 00:00:00",
+							"usuario": "ue06507",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 203,
+							"descricion": "Comunicación de inicio de Trámite de audiencia",
+							"ruta": "Modelo_D52-C1_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 204,
+							"descricion": "Proposta de resolución do instrumento",
+							"ruta": "Modelo_D52-F1_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 205,
+							"descricion": "Resolución do instrumento",
+							"ruta": "Modelo_D52-F2_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 206,
+							"descricion": "Proposta de resolución por desestimento",
+							"ruta": "Modelo_D52-F3_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 207,
+							"descricion": "Resolución por desestimento",
+							"ruta": "Modelo_D52-F6_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 208,
+							"descricion": "Notificación requerimento de emenda servizo montes",
+							"ruta": "Modelo_D52-B3_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 209,
+							"descricion": "Solicitude de informe ás confederacións hidrográficas distintas de Aguas de Galicia",
+							"ruta": "Modelo_D52-B7_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2019-02-07 00:00:00",
+							"usuario": "ue04106",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 210,
+							"descricion": "Solicitude de informe á Demarcación de Costas do Estado en Galicia.",
+							"ruta": "Modelo_D52-B8_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2019-02-07 00:00:00",
+							"usuario": "ue04106",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 211,
+							"descricion": "Proposta de resolución do instrumento",
+							"ruta": "Modelo_D52-F1_Pastos_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-09-13 00:00:00",
+							"usuario": "ue05005",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 212,
+							"descricion": "Notificación suspensión de plazo",
+							"ruta": "Modelo_D52-A6_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-18 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 213,
+							"descricion": "Resolución do instrumento pastos",
+							"ruta": "Modelo_D52-F2_Pastos_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2021-09-13 00:00:00",
+							"usuario": "ue05005",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 214,
+							"descricion": "Solicitude de informe á Dirección xeral de ordenación do territorio e Urbanismo.",
+							"ruta": "Modelo_D52-B9_gl.odt",
+							"activo": "N",
+							"dataModificacion": "2019-02-07 00:00:00",
+							"usuario": "ue04106",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 215,
+							"descricion": "Comunicación MR627D",
+							"ruta": "Plantilla_Solicitude_MR627D.odt",
+							"activo": "N",
+							"dataModificacion": "2021-05-11 00:00:00",
+							"usuario": "ue05602",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						},
+						{
+							"id": 217,
+							"descricion": "Notificación de defectos de comprobacións básicas desfavorables",
+							"ruta": "Modelo_D52-A4_gl.odt",
+							"activo": "N",
+							"dataModificacion": "-",
+							"usuario": "-",
+							"publico": "S",
+							"activoSimpl": "S",
+							"seccion": {
+								"idseccion": 6,
+								"codRecurso": "PLANTILLAS_TRAMITACION",
+								"descricion": "Plantillas de tramitación",
+								"ruta": "plantillas/tramitacion/",
+								"activo": "S"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"message": "A consulta foi realizada correctamente.",
+	"status": 200
+}

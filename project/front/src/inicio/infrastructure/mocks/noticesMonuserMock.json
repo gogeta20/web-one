@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "app": "",
+      "date": "2022-12-10",
+      "enlace": "",
+      "htmlContent": "<p>Prueba noticia xorfor3.&nbsp;Prueba noticia xorfor3.</p>",
+      "textoGL": "<p>Proba nova xorfor3.&nbsp;Proba nova xorfor3.</p>",
+      "title": "Prueba noticia xorfor3",
+      "tituloGL": "Proba nova xorfor3",
+      "visibility": "FUNC"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

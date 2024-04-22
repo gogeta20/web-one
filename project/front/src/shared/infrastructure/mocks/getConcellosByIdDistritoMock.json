@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "codConcello": 36002,
+      "concello": "Barro"
+    },
+    {
+      "codConcello": 36004,
+      "concello": "Bueu"
+    },
+    {
+      "codConcello": 36005,
+      "concello": "Caldas de Reis"
+    },
+    {
+      "codConcello": 36006,
+      "concello": "Cambados"
+    },
+    {
+      "codConcello": 36007,
+      "concello": "Campo Lameiro"
+    },
+    {
+      "codConcello": 36008,
+      "concello": "Cangas"
+    },
+    {
+      "codConcello": 36010,
+      "concello": "Catoira"
+    },
+    {
+      "codConcello": 36012,
+      "concello": "Cotobade"
+    },
+    {
+      "codConcello": 36015,
+      "concello": "Cuntis"
+    },
+    {
+      "codConcello": 36022,
+      "concello": "Grove (O)"
+    },
+    {
+      "codConcello": 36901,
+      "concello": "Illa de Arousa (A)"
+    },
+    {
+      "codConcello": 36025,
+      "concello": "Lama (A)"
+    },
+    {
+      "codConcello": 36026,
+      "concello": "Marín"
+    },
+    {
+      "codConcello": 36027,
+      "concello": "Meaño"
+    },
+    {
+      "codConcello": 36028,
+      "concello": "Meis"
+    },
+    {
+      "codConcello": 36029,
+      "concello": "Moaña"
+    },
+    {
+      "codConcello": 36032,
+      "concello": "Moraña"
+    },
+    {
+      "codConcello": 36041,
+      "concello": "Poio"
+    },
+    {
+      "codConcello": 36043,
+      "concello": "Ponte Caldelas"
+    },
+    {
+      "codConcello": 36044,
+      "concello": "Pontecesures"
+    },
+    {
+      "codConcello": 36038,
+      "concello": "Pontevedra"
+    },
+    {
+      "codConcello": 36040,
+      "concello": "Portas"
+    },
+    {
+      "codConcello": 36046,
+      "concello": "Ribadumia"
+    },
+    {
+      "codConcello": 36051,
+      "concello": "Sanxenxo"
+    },
+    {
+      "codConcello": 36056,
+      "concello": "Valga"
+    },
+    {
+      "codConcello": 36058,
+      "concello": "Vilaboa"
+    },
+    {
+      "codConcello": 36060,
+      "concello": "Vilagarcía de Arousa"
+    },
+    {
+      "codConcello": 36061,
+      "concello": "Vilanova de Arousa"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

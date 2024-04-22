@@ -1,0 +1,33 @@
+// Estilos de datatable de PRIMEVUE
+.p-datatable .p-datatable-tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  color: var(--primary-color);
+  vertical-align: bottom;
+  border-style: none;
+  border-bottom: 2px solid #ddd;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  padding: 0.5rem;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.p-datatable {
+  margin-bottom: 0;
+
+  .fila-normal {
+    font-weight: bold;
+    color: rgb(112, 112, 112);
+    background-color: var(--surface-a) !important;
+
+    &:hover {
+      background-color: var(--light-gray) !important;
+    }
+  }
+}

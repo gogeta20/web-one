@@ -1,0 +1,28 @@
+{
+  "data": {
+    "datosContacto": {
+      "CORUÑA": {
+        "provincia": "A Coruña",
+        "telefono": "(981)184660",
+        "email": ""
+      },
+      "LUGO": {
+        "provincia": "Lugo",
+        "telefono": "(982)294482",
+        "email": "mvmc.lugo@xunta.es"
+      },
+      "OURENSE": {
+        "provincia": "Ourense",
+        "telefono": "(988)386699",
+        "email": "montes.medio-rural.ourense@xunta.gal"
+      },
+      "PONTEVEDRA": {
+        "provincia": "Pontevedra",
+        "telefono": "(986)805416 (986)805464",
+        "email": "servizo.montes.pontevedra@xunta.es"
+      }
+    }
+  },
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

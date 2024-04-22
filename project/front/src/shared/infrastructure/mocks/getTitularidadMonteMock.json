@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "title": "Privado veciñal MVMC",
+      "code": 11
+    },
+    {
+      "title": "Privado particular persoa física(DNI)",
+      "code": 12
+    },
+    {
+      "title": "Privado particular persoa xurídica(CIF)",
+      "code": 13
+    },
+    {
+      "title": "Dominio público territorial do estado",
+      "code": 21
+    },
+    {
+      "title": "Dominio público territorial da comunidade autónoma",
+      "code": 22
+    },
+    {
+      "title": "Dominio público territorial da diputación provincial",
+      "code": 23
+    },
+    {
+      "title": "Dominio público territorial do concello",
+      "code": 24
+    },
+    {
+      "title": "Dominio público territorial de entidade local menor",
+      "code": 25
+    },
+    {
+      "title": "Patrimonial territorial do estado",
+      "code": 31
+    },
+    {
+      "title": "Patrimonial territorial da comunidade autónoma",
+      "code": 32
+    },
+    {
+      "title": "Patrimonial territorial da diputación provincial",
+      "code": 33
+    },
+    {
+      "title": "Patrimonial territorial do concello",
+      "code": 34
+    },
+    {
+      "title": "Patrimonial territorial de entidade local menor",
+      "code": 35
+    },
+    {
+      "title": "Dominio público non territorial",
+      "code": 41
+    },
+    {
+      "title": "Patrimonial non territorial",
+      "code": 42
+    },
+    {
+      "title": "Privado colectivo pro indiviso",
+      "code": 51
+    },
+    {
+      "title": "Privado particular SOFOR",
+      "code": 14
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

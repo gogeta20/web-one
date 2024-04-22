@@ -1,0 +1,9 @@
+.bh-field {
+  width: 100%;
+}
+.container-error {
+  position: relative;
+}
+.error-position {
+  position: absolute;
+}

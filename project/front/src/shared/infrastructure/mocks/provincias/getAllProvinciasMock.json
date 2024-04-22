@@ -1,0 +1,210 @@
+{
+  "data": [
+    {
+      "value": 15,
+      "province": "A Coruña"
+    },
+    {
+      "value": 2,
+      "province": "Albacete"
+    },
+    {
+      "value": 3,
+      "province": "Alicante"
+    },
+    {
+      "value": 4,
+      "province": "Almería"
+    },
+    {
+      "value": 33,
+      "province": "Asturias"
+    },
+    {
+      "value": 5,
+      "province": "Ávila"
+    },
+    {
+      "value": 6,
+      "province": "Badajoz"
+    },
+    {
+      "value": 7,
+      "province": "Baleares"
+    },
+    {
+      "value": 8,
+      "province": "Barcelona"
+    },
+    {
+      "value": 9,
+      "province": "Burgos"
+    },
+    {
+      "value": 10,
+      "province": "Cáceres"
+    },
+    {
+      "value": 11,
+      "province": "Cádiz"
+    },
+    {
+      "value": 39,
+      "province": "Cantabria"
+    },
+    {
+      "value": 12,
+      "province": "Castellón"
+    },
+    {
+      "value": 51,
+      "province": "Ceuta"
+    },
+    {
+      "value": 13,
+      "province": "Ciudad Real"
+    },
+    {
+      "value": 14,
+      "province": "Córdoba"
+    },
+    {
+      "value": 16,
+      "province": "Cuenca"
+    },
+    {
+      "value": 17,
+      "province": "Gerona"
+    },
+    {
+      "value": 18,
+      "province": "Granada"
+    },
+    {
+      "value": 19,
+      "province": "Guadalajara"
+    },
+    {
+      "value": 20,
+      "province": "Guipúzcoa"
+    },
+    {
+      "value": 21,
+      "province": "Huelva"
+    },
+    {
+      "value": 22,
+      "province": "Huesca"
+    },
+    {
+      "value": 23,
+      "province": "Jaén"
+    },
+    {
+      "value": 26,
+      "province": "La Rioja"
+    },
+    {
+      "value": 35,
+      "province": "Las Palmas"
+    },
+    {
+      "value": 24,
+      "province": "León"
+    },
+    {
+      "value": 25,
+      "province": "Lérida"
+    },
+    {
+      "value": 27,
+      "province": "Lugo"
+    },
+    {
+      "value": 28,
+      "province": "Madrid"
+    },
+    {
+      "value": 29,
+      "province": "Málaga"
+    },
+    {
+      "value": 52,
+      "province": "Melilla"
+    },
+    {
+      "value": 30,
+      "province": "Murcia"
+    },
+    {
+      "value": 31,
+      "province": "Navarra"
+    },
+    {
+      "value": 32,
+      "province": "Ourense"
+    },
+    {
+      "value": 34,
+      "province": "Palencia"
+    },
+    {
+      "value": 36,
+      "province": "Pontevedra"
+    },
+    {
+      "value": 37,
+      "province": "Salamanca"
+    },
+    {
+      "value": 38,
+      "province": "S.C. Tenerife"
+    },
+    {
+      "value": 40,
+      "province": "Segovia"
+    },
+    {
+      "value": 41,
+      "province": "Sevilla"
+    },
+    {
+      "value": 42,
+      "province": "Soria"
+    },
+    {
+      "value": 43,
+      "province": "Tarragona"
+    },
+    {
+      "value": 44,
+      "province": "Teruel"
+    },
+    {
+      "value": 45,
+      "province": "Toledo"
+    },
+    {
+      "value": 46,
+      "province": "Valencia"
+    },
+    {
+      "value": 47,
+      "province": "Valladolid"
+    },
+    {
+      "value": 48,
+      "province": "Vizcaya"
+    },
+    {
+      "value": 49,
+      "province": "Zamora"
+    },
+    {
+      "value": 50,
+      "province": "Zaragoza"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

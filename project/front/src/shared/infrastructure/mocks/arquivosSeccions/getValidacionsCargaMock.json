@@ -1,0 +1,2757 @@
+{
+  "data": {
+    "po": {
+      "title": "Proyectos de Ordenación",
+      "documentos": [
+        {
+          "title": "A2.Plano das parcelas catastrais",
+          "validations": [
+            {
+              "id": 335,
+              "tipoInstrumento": "PO",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que o valor indicado para o campo <i>IDMONTE</i> sexa un valor numérico maior que cero e os montes indicados coinciden cos que indicou no formulario de alta do instrumento.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 336,
+              "tipoInstrumento": "PO",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que os valores indicados para cada un dos campos de superficie (<i>SLITIX, SENCRA, SARRENDA, SCESION, SDERSUP, SOCUPA, SSERVI, SOUTROS, SNONFOR, SXPUBLICA</i> e <i>SXPROPIA</i>) sexan valores numéricos iguais o maiores que cero.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 337,
+              "tipoInstrumento": "PO",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe qua a superficie ordenada sexa maior que cero. A superficie ordenada é a suma das superficies indicadas nos campos  <i>SXPUBLICA, SXPROPIA</i> e <i>SSERVI</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 338,
+              "tipoInstrumento": "PO",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que as referencias catastrais que se indican nos campos <i>REFCAT</i> sexan correctas.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 339,
+              "tipoInstrumento": "PO",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que para cada rexistro do plano adxunto, soamente un dos campos de superficie teña un valor maior que cero.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 507,
+              "tipoInstrumento": "PO",
+              "codPlano": "PPC",
+              "validacion": "<p>Os campos superficie da referencia catastral no monte (<i>SRCMONTE</i>) e a superficie da referencia catastral (<i>SREFCAT</i>) son opcionais. Se utiliza a opción  de autoxerar planos estarán incluídos no plano autoxerado, se non, pode suprimilos do plano. No caso de indicar <i>SRCMONTE</i> e <i>SREFCAT</i> deberá comprobar o seguinte:<ul><li>Para cada rexistro do plano adxunto, se indique un valor nos campos <i>SREFCAT</i> e <i>SRCMONTE</i>.</li><li>Para cada referencia catastral se indique o mesmo valor no campo <i>SREFCAT</i>.</li><li>Para cada referencia catastral se indique o mesmo valor no campo <i>SRCMONTE</i>.</li><li>Para cada referencia catastral, o valor do campo <i>SRCMONTE</i> sexa menor ou igual ao valor do campo <i>SREFCAT</i>.</li><li>A suma das superficies indicadas para unha mesma referencia catastral nun monte (<i>SLITIX, SENCRA, SARRENDA, SCESION, SDERSUP, SOCUPA, SSERVI, SOUTROS, SNONFOR, SXPUBLICA, SXPROPIA</i>) sexa igual ao valor indicado no campo <i>SRCMONTE</i>.</li><li>A suma das superficies indicadas no campo <i>SRCMONTE</i> para unha mesma referencia catastral non exceda á superficie total da referencia catastral (<i>SREFCAT</i>).</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "title": "A1.Plano de situación",
+          "validations": [
+            {
+              "id": 340,
+              "tipoInstrumento": "PO",
+              "codPlano": "PDOM",
+              "validacion": "<p>Comprobe que todo monte indicado no plano <i>A2.Plano de parcelas catastrais</i> que teña superficie ordenada, se indique no campo IDMONTE do plano A1.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 341,
+              "tipoInstrumento": "PO",
+              "codPlano": "PDOM",
+              "validacion": "<p>Comprobe que a suma das supercifies de ordenación do plano A1 (aquelas para as que o valor do campo <i>CODSIT</i> é igual a <i>2</i>), non supere a superficie ordenada no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 2
+        },
+        {
+          "title": "D1.Plano de estratos de inventario",
+          "validations": [
+            {
+              "id": 228,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 229,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que a superficie total por <i>IDMONTE-CODESTRATO-CANTON-MOUTEIRA</i>, indicada nos campos <i>SUPERFICIE</i>, non sexa nula.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 230,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se indica un valor para o código de estrato no campo <i>CODESTRATO</i> (valor obrigatorio) e que sexa numérico e cunha lonxitude de dous ou catro díxitos.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 384,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que para cada <i>CODESTRATO</i> se indica un único tipo de estrato no campo <i>TIPOEST</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 231,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que o valor indicado para o tipo de estrato no campo <i>TIPOEST</i> sexa válido.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 232,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que cando o tipo de estrato ten algún dos seguintes valores:  <i>111, 112, 113, 115, 116, 117, 119, 121, 122, 123, 125, 126, 127</i> (arbustivo e non procede é un dos tipos de estrato que pode levar asociado un tipo de masa nulo), se indica un valor para o tipo de masa no campo <i>TIPOMASA</i>.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 233,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que o valor indicado para a densidade no campo <i>DENSIDADE</i> sexa un dos posibles seguintes valores:<ul><li><strong>0</strong>: Non procede clasificación</li><li><strong>1</strong>: Baixa</li><li><strong>2</strong>: Media</li><li><strong>3</strong>: Alta</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 234,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que si o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo, se indica un valor para a forma da masa no campo <i>CODFORMA</i>. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non procede</li><li><strong>1</strong>: Coetánea</li><li><strong>2</strong>: Regular</li><li><strong>3</strong>: Semirregular</li><li><strong>4</strong>: Irregular</li></ul></p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 235,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que si o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo, se indica un valor para a orixe da masa no campo <i>CODORIXE</i>. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non procede</li><li><strong>1</strong>: Semilla</li><li><strong>2</strong>: Plantación</li><li><strong>3</strong>: Brote de cepa ou ráiz</li><li><strong>4</strong>: Mixto semente e brote de cepa</li><li><strong>5</strong>: Mixto semente e plantación</li><li><strong>6</strong>: Mixto plantación e brote de cepa</li><li><strong>7</strong>: Todos</li></ul></p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 236,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se se indica un valor para cada especie nos campos <i>SP1</i>, <i>SP2</i> e <i>SP3</i>, sexan valores correctos.</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 237,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe para cada un dos estados das especies indicados nos campos <i>E1</i>, <i>E2</i> e <i>E3</i>, o seguinte: Se levan asociados unha especie (se indica un valor nos campos <i>SP1</i>, <i>SP2</i> o <i>SP3</i>), e o tipo de estrato indicado en el campo <i>TIPOEST</i> é arbóreo e o estrato non é un dos que poden levar asociada unha masa nula, se indica un valor para para o campo <i>E1</i>, <i>E2</i> ou <i>E3</i> correspondente. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non procede a calificación</li><li><strong>1</strong>: Repoboado</li><li><strong>2</strong>: Monte bravo</li><li><strong>3</strong>: Latizal</li><li><strong>4</strong>: Futsal</li><li><strong>5</strong>: Monte bravo con repoboado</li><li><strong>6</strong>: Futsal con latizal</li><li><strong>7</strong>: Futsal e/ou latizal con subpiso</li><li><strong>8</strong>: Diseminado</li><li><strong>9</strong>: En Rexeneración</li></ul></p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 238,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe para cada uha das ocupacións das especies indicadas nos campos <i>O1</i>, <i>O2</i> e <i>O3</i>, o seguinte: Se levan asociados unha especie (se indica un valor nos campos <i>SP1</i>, <i>SP2</i> o <i>SP3</i>), e o tipo de estrato indicado en el campo <i>TIPOEST</i> é arbóreo e o estrato non é un dos que poden levar asociada unha masa nula, se indica un valor para para o campo <i>O1</i>, <i>O2</i> ou <i>O3</i> correspondente. Os valores deben estar comprendidos no rango 1-10.</p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 239,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo, o campo de fracción de cabida cuberta <i>FCC</i> non pode ser nulo e ademais debe ser un valor numérico comprendido no rango 10-100%.</p>",
+              "orden": 13,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 240,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo ou arbustivo, se non se indica un valor para o tipo de masa no campo <i>TIPOMASA</i>, o <i>FCC</i> debe ser un valor numérico comprendido no rango 0-100%.</p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 385,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se o tipo de estrato indicado no campo <i>TIPOEST</i> é arbustivo, se se indica un valor para o tipo de masa no campo <i>TIPOMASA</i>, o campo de fracción de cabida cuberta <i>FCC</i> non pode ser nulo e ademais debe ser un valor numérico comprendido no rango 10-100%.</p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 241,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se se indica un valor para os cantóns e mouteiras nos campos <i>CANTON</i> e <i>MOUTEIRA</i> (campos opcionais), sexan valores numéricos de 3 díxitos de lonxitude.</p>",
+              "orden": 16,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 242,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que a suma das superficies indicadas no plano non sexa superior á superficie de ordenación do plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 18,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 393,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que, se se indica un valor no campo <i>AVC</i>, dito valor sexa 0 ou 1.</p>",
+              "orden": 19,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 394,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que, se se indica un valor no campo <i>ENAT</i>, dito valor sexa 0 ou 1.</p>",
+              "orden": 20,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 395,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que, se se indica un valor no campo <i>DESC_ENAT</i>, a súa lonxitude sexa menor a 50 caracteres.</p>",
+              "orden": 21,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 3
+        },
+        {
+          "title": "D2.Plano parcelas de mostraxe e servizos no monte",
+          "validations": [
+            {
+              "id": 243,
+              "tipoInstrumento": "PO",
+              "codPlano": "PMOS",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 244,
+              "tipoInstrumento": "PO",
+              "codPlano": "PMOS",
+              "validacion": "<p>Comprobe que se indica un valor para as coordenadas nos campos <i>UTMX</i> e <i>UTMY</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 245,
+              "tipoInstrumento": "PO",
+              "codPlano": "PMOS",
+              "validacion": "<p>Comprobe que se se indica un valor para a parcela no campo <i>PARCELA</i>, se indique tamén un valor para o estrato no campo <i>CODESTRATO</i>.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 246,
+              "tipoInstrumento": "PO",
+              "codPlano": "PMOS",
+              "validacion": "<p>Comprobe que se se indica un servizo no campo <i>CODSERV</i>, o valor sexa válido.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 247,
+              "tipoInstrumento": "PO",
+              "codPlano": "PMOS",
+              "validacion": "<p>Comprobe, para cada un dos rexistros do plano, que exista a combinación <i>IDMONTE-CODESTRATO-CANTON-MOUTEIRA</i> indicada (estes datos introdúcense no plano <i>D1.Plano de estratos de inventario</i>).</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 4
+        },
+        {
+          "title": "E.Plano de ordenación",
+          "validations": [
+            {
+              "id": 248,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 249,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que non existan cuarteis con máis dun método de ordenación no mesmo monte, é dicir, a relación <i>IDMONTE-CUARTEL-METORD</i> debe ser única (aínda que se repita en varios rexistros do plano).</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 250,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se indica alomenos un valor para os obxectivos principais do cuartel no campo <i>OBXPPAL</i> (valor obrigatorio). Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Madeireiro</li><li><strong>2</strong>: Protector</li><li><strong>3</strong>: Recreo</li><li><strong>4</strong>: Froitos</li><li><strong>5</strong>: Pasto</li><li><strong>6</strong>: Turístico</li><li><strong>7</strong>: Deportivo</li><li><strong>8</strong>: Cultural</li><li><strong>9</strong>: Cinexético</li><li><strong>10</strong>: Micolóxico</li><li><strong>11</strong>: Plantas aromáticas e medicinais</li><li><strong>12</strong>: Cortiza</li><li><strong>13</strong>: Mel</li><li><strong>14</strong>: Resina</li><li><strong>15</strong>: Resina (Investigación)</li><li><strong>16</strong>: Resina (Formación)</li><li><strong>17</strong>: Silvopastoril</li><li><strong>18</strong>: Leñas</li><li><strong>19</strong>: Redes de Faixas de Xestión de Biomasa</li></ul></p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 251,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que, se se indica algún valor para os obxectivos secundarios do cuartel no campo <i>OBXSEC</i> (valor opcional), é un dos indicados no punto anterior.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 437,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se algún dos obxectivos indicados nos campos <i>OBXPPAL</i> e <i>OBXSEC</i> é <i>Pasto</i>, <i>Silvopastoril</i> ou <i>Micolóxico</i> e se indica no campo PR_A regulación ou prohibición parcial, veña indicada unha referencia catastral no campo <i>REFCAT</i>. Ademais, a referencia indicada debe ter unha lonxitude igual ou superior a 14 caracteres e estar asociada ao monte indicado no campo <i>IDMONTE</i>, é dicir, que no plano A2.Plano de parcelas catastrales, exista a relación <i>IDMONTE-REFCAT</i>.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 252,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que o valor indicado para o método de ordenación forestal no campo <i>METORD</i>, sexa un dos seguintes valores posibles:<ul><li><strong>0</strong>: Sen método de ordenación</li><li><strong>1</strong>: División por cabida (Tranzóns)</li><li><strong>2</strong>: Tramos periódicos</li><li><strong>3</strong>: Tramo único</li><li><strong>4</strong>: Tramo móbil</li><li><strong>5</strong>: Por mouteiras</li><li><strong>6</strong>: Masas irregulares</li><li><strong>7</strong>: Outro método de ordenación</li></ul></p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 423,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se indica o código identificativo do modelo silvícola no campo <i>MS</i>, e que está entre aqueles aos que ten acceso, sexa porque é de tipo orientativo, sexa porque se trata dun modelo específico creado por vostede. No caso dos modelos específicos, comprobe ademais que o MS indicado non está excluído dos concellos e está habilitado para algún dos distritos do instrumento.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 405,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que o tipo de aproveitamento do modelo indicado no campo <i>MS</i>, se corresponde cos obxectivos sinalados para o cuartel correspondente.<br>A continuación explícanse os modelos admitidos para cada obxectivo por tipo de aproveitamento:</p><ul><li>Os modelos con tipo de aproveitamento <strong>madeireiro</strong> (BC1, CS1, EG1, EG2, EN1, EN2, PA1, PCA, PFMV, PM1, PP1, PP2, PP3, PR1, PR2, PR3 ou específicos nos que se seleccione o tipo de aproveitamento madeireiro) serán admitidos en cuarteis nos que conste alomenos un obxectivo <strong>1-Madeireiro</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>pascícola</strong> (SP ou específicos nos que se seleccione o tipo de aproveitamento pascícola) serán admitidos en cuarteis nos que conste alomenos un obxectivo <strong>5-Pasto</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>silvopastoril</strong> (SS1 ou específicos nos que se seleccione o tipo de aproveitamento silvopastoril) serán admitidos en cuarteis nos que conste alomenos un obxectivo <strong>17-Silvopastoril</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>madeira-resina</strong> (PMR ou específicos nos que se seleccione o tipo de aproveitamento madeira-resina) serán admitidos en cuarteis nos que conste alomenos un dos seguintes obxectivos <strong>1-Madeireiro</strong>, <strong>14-Resina</strong>, <strong>15-Resina (Investigación)</strong>, <strong>16-Resina (Formación)</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>multifuncional</strong> (CS2, PF1, PN1, PF2, PPA1, PS1, PS2, QP1, QP2, QR1, QR2, QS1, SEF, SPN, XFAS ou específicos nos que se seleccione o tipo de aproveitamento multifuncional) serán admitidos para todos os obxectivos.</li><li>Os modelos con tipo de aproveitamento <strong>conservación</strong> (CS3, BA, RR, XBR ou específicos nos que se seleccione o tipo de aproveitamento conservación) serán admitidos para todos os obxectivos.</li></ul>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 428,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que, de indicarse o código identificativo do modelo silvícola  <i>SS1</i>, <i>SP</i> ou modelos silvícolas con tipo de aproveitamento pastos ou silvopastoril no campo <i>MS</i>, se indica como mínimo unha especie gando no campo <i>SP_ GANDO</i>.</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 424,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se indica un código de especie do IFN no campo <i>SP_PPAL</i>, e que se trata dunha das especies que constan para o modelo silvícola consignado no campo <i>MS</i>.</p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 403,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que, de indicarse unha, e ata tres, especies de gando, os valores estean entre os admitidos: <ul><li><strong>1</strong>: Caprino</li><li><strong>2</strong>: Equino</li><li><strong>3</strong>: Ovino</li><li><strong>4</strong>: Bovino</li><li><strong>5</strong>: Porcino</li></ul></p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 420,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que, de indicarse un valor de regulación de pastoreo ou acoutamento micolóxico, está entre os admitidos: <ul><li><strong>1</strong>: Prohíbe parcial pastoreo</li><li><strong>2</strong>: Prohíbe total pastoreo</li><li><strong>3</strong>: Regula parcial pastoreo</li><li><strong>4</strong>: Regula total pastoreo</li><li><strong>10</strong>: Acoutamento micolóxico</li><li><strong>11</strong>: Acoutamento micolóxico e prohíbe parcial pastoreo</li><li><strong>12</strong>: Acoutamento micolóxico e prohíbe total pastoreo</li><li><strong>13</strong>: Acoutamento micolóxico e regula parcial pastoreo</li><li><strong>14</strong>: Acoutamento micolóxico e regula total pastoreo</li></ul></p>",
+              "orden": 13,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 426,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se se indica no campo PR_A algunha das opcións de regulación de pastoreo (3, 4, 13 ou 14), se cubren alomenos os datos dun responsable.</p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 404,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se se indica no campo PR_A algunha das opcións de regulación de pastoreo, se cubren alomenos os datos dun responsable.</p>",
+              "orden": 15,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 253,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que o valor indicado para a superficie no campo <i>SUPERFICIE</i>, sexa un valor numérico maior que cero.</p>",
+              "orden": 16,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 397,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que a suma das superficies indicadas no plano, non sexa superior á superficie de ordenación do plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 17,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 407,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que se hai regulación ou prohibición total a superficie do plano E non pode ser inferior á superficie ordenada do plano A2 en máis dun 10%.</p>",
+              "orden": 18,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 413,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que, de indicarse cantón e/ou mouteira, a combinación de valores figure para o monte correspondente no apartado inventario.</p>",
+              "orden": 19,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 427,
+              "tipoInstrumento": "PO",
+              "codPlano": "PORD",
+              "validacion": "<p>Comprobe que, se se indica un valor no campo <i>CRENAT</i>, dito valor sexa 0 ou 1.</p>",
+              "orden": 20,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 5
+        },
+        {
+          "title": "F.Plano de actuacións",
+          "validations": [
+            {
+              "id": 254,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 255,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que se indica un valor para a referencia do instrumento no campo <i>IDXF</i> e que este valor se corresponda coa referencia do instrumento sobre o que se desexa adxuntar o plano.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 256,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que se indica un valor para o cuartel de ordenación no campo <i>CUARTEL</i>. Este valor debe ser numérico e existir no monte indicado no campo <i>IDMONTE</i>.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 257,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que o valor indicado para a unidade de ordenación no campo <i>UO</i> sexa numérico e que exista no cuartel e monte indicados (valores introducidos no plano <i>E.Plano de ordenación</i>).</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 258,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que se indica un valor numérico para a unidade de actuación no campo <i>UA</i>.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 392,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que a suma das superficies indicadas no plano non sexa superior á superficie de ordenación do plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 386,
+              "tipoInstrumento": "PO",
+              "codPlano": "PACT",
+              "validacion": "<p>Comprobe que se indica un valor para o campo <i>GeoUA</i>. Este campo debe ter a seguinte estrutura: referencia_instrumento+CUARTEL+UO+UA</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 6
+        },
+        {
+          "title": "A3.Plano de cualificación urbanística",
+          "validations": [
+            {
+              "id": 342,
+              "tipoInstrumento": "PO",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 343,
+              "tipoInstrumento": "PO",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>CODSOLO</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>SNOUR</strong>: Urbanizable non delimitado ou urbanizable delimitado (no caso de transitoria quinta da Lei  7/2012 de montes de Galicia)</li><li><strong>SRPFO</strong>: Rústico de protección forestal</li><li><strong>SRPIN</strong>: Rústico de protección infraestructuras</li><li><strong>SRPAG</strong>: Rústico de protección das augas</li><li><strong>SRPCO</strong>: Rústico de protección de costas</li><li><strong>SRPEN</strong>: Rústico de protección de espazos naturais</li><li><strong>SRPPA</strong>: Rústico de protección paisaxística</li><li><strong>SRPCU</strong>: Rústico de protección patrimonial</li><li><strong>SNORU</strong>: Urbano, de núcleo rural ou urbanizable delimitado (agás disp. transitoria quinta da Lei 7/2012 de montes de Galicia)</li><li><strong>SRPAP</strong>: Rústico de protección agropecuaria</li><li><strong>SRPOR</strong>: Rústico de protección ordinaria (agás os destinados a cultivo agrícola)</li><li><strong>SRPAR</strong>: Rústico de protección ordinaria destinados a cultivo agrícola</li><li><strong>DP</strong>: Dominio público (agás dominio público forestal)</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 344,
+              "tipoInstrumento": "PO",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que a superficie indicada no campo <i>SUPERFICIE</i> sexa un valor numérico maior que cero.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 345,
+              "tipoInstrumento": "PO",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que para todos os tipos de solo indicados no campo <i>CODSOLO</i>, a superficie asociada, non sexa maior que a superficie da totalidade do monte do plano A2.Plano de parcelas catastrais.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 7
+        },
+        {
+          "title": "B1.Plano de limitacións bióticas/abióticas",
+          "validations": [
+            {
+              "id": 346,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 347,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p><p>Comprobe que os valores indicados para o dano no campo <i>CODDANOS</i>, sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>100</strong>: Caza e gando</li><li><strong>200</strong>: Insectos</li><li><strong>300</strong>: Fungos</li><li><strong>600</strong>: Lume</li><li><strong>800</strong>: Outras</li><li><strong>900</strong>: Especies exóticas invasoras</li></ul></p></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 382,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores indicados para a especie no campo <i>CODSP</i>, sexan códigos correctos.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 348,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que se o tipo de dano indicado no campo <i>CODDANOS</i> é <i>Lume (600)</i> ou <i>Outros (800)</i>, os valores indicados para a especie no campo <i>CODSP</i>, sexan nulos.</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 349,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores indicados para o grao de afectación no campo CODGRAO, sexan válidos. Os posibles valores para ese campo os os seguintes:<ul><li><strong>1</strong>: Leve</li><li><strong>2</strong>: Moderado</li><li><strong>3</strong>: Grave</li><li><strong>4</strong>: Moi grave</li></ul></p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 350,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores introducidos para as superficies no campo <i>SUPAFECTA</i> sexan valores numéricos maiores que cero.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 351,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que para cada un dos rexistros do plano, a superficie indicada non sexa superior á superficie de ordenación do plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 447,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que se o tipo de dano indicado no campo <i>CODDANOS</i> é <i>Lume (600)</i> se indica unha data có formato dd/mm/aaaa no campo <i>DATALUME</i></p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 448,
+              "tipoInstrumento": "PO",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que se o tipo de dano indicado no campo <i>CODDANOS</i> é diferente de <i>Lume (600)</i> o campo <i>DATALUME</i> este baleiro</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 8
+        },
+        {
+          "title": "B3.Plano de outras limitacións",
+          "validations": [
+            {
+              "id": 357,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 358,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que os tipos de limitación indicados no campo CODLIM, sexan correctos. Os posibles tipos de limitación son os seguintes:<ul><li><strong>ENP</strong>: Limitacións por espacios protexidos</li><li><strong>SPA</strong>: Limitacións por especies ameazadas</li><li><strong>ARS</strong>: Limitacións por árbores senlleiras</li><li><strong>PCS</strong>: Limitacións de patrimonio por camiño de Santiago</li><li><strong>POC</strong>: Limitacións por ordenación cinexética</li><li><strong>UDA</strong>: Limitacións por unidades ambientais</li><li><strong>OUT</strong>: Outro tipo de limitacións</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 359,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación distintos de <i>CODLIM = ARS</i> e <i>CODLIM = OUT</i>, se indique unha figura de limitación no campo <i>CODFIGURA</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 360,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación <i>CODLIM = ARS</i> e <i>CODLIM = OUT</i>, no caso de\nindicar unha figura de limitación no campo <i>CODFIGURA</i> (valor opcional), sexa unha figura válida para a limitación correspondente.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 383,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para o tipo de limitación <i>CODLIM = PCS</i>, se se indica un valor para o nome da figura de limitación no campo <i>CODNOME</i>, dito valor segue algunha das seguintes pautas:<ul><li>Empece pola cadea <i>\"GA\"</i>, que os dous seguintes caracteres a dita cadea se correspondan con algún dos códigos das provincias de Galicia (15, 27, 32, 36) e que a lonxitude total sexa de dez caracteres</li><li>Empece por algún dos posibles caracteres rexistrados na aplicación</li></ul></p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 361,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para o tipo de limitación <i>CODLIM = PCS</i>, se se indica un valor para o nome da figura de limitación no campo <i>CODNOME</i> (valor opcional), dito valor segue algunha das seguintes pautas:<ul><li>Empece pola cadea <i>\"GA\"</i>, que os dous seguintes caracteres a dita cadea se correspondan con algún dos códigos das provincias de Galicia (15, 27, 32, 36) e que a lonxitude total sexa de dez caracteres</li><li>Empece por algún dos posibles caracteres rexistrados na aplicación</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 362,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación distintos a <i>CODLIM = PCS</i>, se indica un valor para o nome da figura no campo <i>CODNOME</i> (valor obrigatorio) e que sexa un valor correcto, agás cando a figura de limitación se corresponde cunha figura de ordenación cinexética deportiva (valor 404), en cuio caso o campo <i>CODNOME</i> é opcional.</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 363,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación distintos a <i>CODLIM = UDA</i>, se se indica un valor para o campo <i>CODTESELA</i> (valor opcional), dito valor sexa unha secuencia de caracteres alfanuméricos.</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 364,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que a para o tipo de limitación <i>CODLIM = UDA</i> se indica un valor para o campo <i>CODTESELA</i> (valor obrigatorio) e que dito valor sexa unha secuencia de caracteres alfanuméricos.</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 365,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación <i>CODLIM = ARS</i> e <i>CODLIM = PCS</i>, se indica un valor numérico para os campos <i>UTMX</i> e <i>UTMY</i> (valores obrigatorios), excepto no caso de Camiño de Santiago que non sería necesario.<p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 366,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para cada un dos rexistros do plano, o valor do campo <i>CODNOME</i> se corresponde cun valor posible en función do valor indicado no campo <i>CODFIGURA</i>.</p>",
+              "orden": 13,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 367,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para cada un dos rexistros do plano, a superficie indicada non sexa superior á superficie de ordenación do plano <i>A2.Plano de parcelas catastrais</i>, excepto para o caso <i>CODLIM = OUT</i> no que XORFOR non realiza a comprobación de superficies de ordenación.</p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 494,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que se o código de limitación indicado no campo <i>CODLIM</i> é <i>OUT</i> se indica unha descrición no campo <i>DESCRICION</i> (a lonxitude máxima é 120 caracteres)</p>",
+              "orden": 15,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 495,
+              "tipoInstrumento": "PO",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que se o código de limitación indicado no campo <i>CODLIM</i> non é <i>OUT</i> o campo <i>DESCRICION</i> este baleiro</p>",
+              "orden": 16,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 9
+        },
+        {
+          "title": "B2.Plano de limitacións hidrográficas",
+          "validations": [
+            {
+              "id": 352,
+              "tipoInstrumento": "PO",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 353,
+              "tipoInstrumento": "PO",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que os valores indicados para as demarcaciós hidrográficas no campo <i>CODDEM</i> sexan válidos. Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Galicia-Costa</li><li><strong>2</strong>: Miño-Sil</li><li><strong>3</strong>: Cantábrico Occidental</li><li><strong>4</strong>: Douro</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 354,
+              "tipoInstrumento": "PO",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que os valores indicados para as bacías hidrográficas no campo <i>CODBACIAS</i> sexan valores numéricos non nulos.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 355,
+              "tipoInstrumento": "PO",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que para cada rexistro do plano, soamente un dos campos de superficie teña un valor maior que cero.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 356,
+              "tipoInstrumento": "PO",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que a superficie ordenada non sexa maior que a superficie ordenada no plano <i>A2.Plano de parcelas catastrais</i>. A superficie ordenada no plano B2 é a suma de todos os valores dos campos de superficie, excepto [SDPH].</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 10
+        },
+        {
+          "title": "C1.Plano de rede viaria forestal",
+          "validations": [
+            {
+              "id": 368,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 369,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que se indica un valor para os tipo de vía no campo <i>TIPOVIA</i> (valor obrigatorio). Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Pista forestal principal</li><li><strong>2</strong>: Pista forestal secundaria</li><li><strong>3</strong>: Sendeiros</li><li><strong>4</strong>: Vías de saca</li><li><strong>9</strong>: Outras</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 370,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que se indica un valor para os códigos de vía no campo <i>CODVIA</i> (valor obrigatorio).</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 371,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que se indica un valor para o estado de conservación da vía no campo <i>ESTCONS</i>. Os posibles valores son los siguientes:<ul><li><strong>1</strong>: Deficiente</li><li><strong>2</strong>: Regular</li><li><strong>3</strong>: Bo</li></ul></p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 372,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que para as vías principais (<i>CODVIA = 1</i>), o valor indicado para o estado do firme <i>ESTFIRME</i>, estado da cuneta <i>ESTCUNETA</i>, e o estado do paso da auga <i>ESTPASAUGA</i> sexan diferentes de cero.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 373,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que se indica un valor para a transitabilidade da vía no campo <i>CODTRANS</i>. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non</li><li><strong>1</strong>: Sí</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 374,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que se a vía é intransitable (<i>CODTRANS = 0</i>), se indica un valor para a causa\nde intransitabilidade no campo <i>CODINTRA</i>. Os posibles valores son los seguintes:<ul><li><strong>1</strong>: Calzada invadida pola vexetación lateral</li><li><strong>2</strong>: Risco de volco de camións</li><li><strong>3</strong>: Risco de volco para tractores forestais</li><li><strong>4</strong>: Calzada intransitable por acumulación de auga en puntos concretos.</li><li><strong>5</strong>: Calzada intransitable por existencia de grandes erosións.</li><li><strong>6</strong>: Anchura de calzada insuficiente para o paso de vehículos en dirección contraria.</li><li><strong>7</strong>: Risco de desprendementos laterais</li><li><strong>8</strong>: Pendente excesiva</li><li><strong>9</strong>: Radio de curvatura excesivamente pequeno</li><li><strong>99</strong>: Outras causas</li></ul></p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 375,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que cando a vía é transitable (<i>CODTRANS = 1</i>), a causa de intransitabilidade sexa nula, é dicir, <i>CODINTRA = 0</i>.</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 376,
+              "tipoInstrumento": "PO",
+              "codPlano": "RVIA",
+              "validacion": "<p>Comprobe que o valor indicado para a lonxitude da vía no campo <i>LONXITUDE</i> sexa un valor numérico maior que cero.</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 11
+        },
+        {
+          "title": "C2.Plano de infraestruturas de prevención, faixas biomasa e outras",
+          "validations": [
+            {
+              "id": 377,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINF",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 378,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINF",
+              "validacion": "<p>Comprobe que se indica un valor para o tipo de vía no campo <i>TIPOVIA</i> (campo obrigatorio). Os posibles valores son los seguintes:<ul><li><strong>0</strong>: Non procede clasificación</li><li><strong>1</strong>: Pista forestal principal</li><li><strong>2</strong>: Pista forestal secundaria</li><li><strong>5</strong>: Devasa</li><li><strong>6</strong>: Área cortalumes</li><li><strong>7</strong>: Faixa auxiliar de pista</li><li><strong>8</strong>: Punto de auga</li><li><strong>9</strong>: Outras</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 379,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINF",
+              "validacion": "<p>Comprobe que se indica un valor maior que cero para o código de vía no campo <i>CODVIA</i> (valor obrigatorio).</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 380,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINF",
+              "validacion": "<p>Comprobe que se indica un valor para o estado de conservación da vía no campo <i>ESTCONS</i>. Os posibles valores son los siguientes:<ul><li><strong>0</strong>: Non procede clasificación</li><li><strong>1</strong>: Deficiente</li><li><strong>2</strong>: Regular</li><li><strong>3</strong>: Bo</li></ul></p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 226,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINF",
+              "validacion": "<p>Comprobe que se indica un valor para o tipo de xestión no campo <i>RXB</i>, e que sexa un valor válido.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 227,
+              "tipoInstrumento": "PO",
+              "codPlano": "PINF",
+              "validacion": "<p>Comprobe que para cada rexistro do plano, soamente un dos campos de superficie (<i>SDP</i> e <i>SUPERFICIE</i>) teña un valor maior que cero.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 12
+        },
+        {
+          "title": "Excel de titulares",
+          "validations": [
+            {
+              "id": 266,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> existan no monte indicado.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 267,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indica un valor para o <i>NIF</i> do titular ou representante.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 268,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indica un valor para os campos <i>NOME</i>, <i>APELIDO 1</i>, <i>APELIDO 2</i> do titular ou representante.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 269,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indica alomenos un titular ou representante por referencia catastral.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 270,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indica un valor no campo <i>CodTitularidade</i> ou <i>CodRepresentante</i> por rexistro.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 409,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que o valor indicado para o tipo de titularidade no campo <i>CodTitularidade</i>, sexa un dos seguintes valores posibles: </p><ul><li><strong>CA: </strong>Concesión administrativa</li><li><strong>DS: </strong>Dereito de superficie</li><li><strong>US: </strong>Usufructo</li><li><strong>PR: </strong>Propiedade</li><li><strong>DF: </strong>Desfrute</li></ul>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 421,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indique o porcentaxe de titularidade no campo <i>Porcentaxe</i>.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 422,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que a suma do porcentaxe de titularidade por referencia catastral non supere o 100%.</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 425,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indicase un valor para o tipo de representante no campo <i>CodRepresentante</i>, sexa un dos seguintes valores posibles: </p><ul><li><strong>XE: </strong>Xestor</li><li><strong>AP: </strong>Apoderado</li><li><strong>CO: </strong>Contratado</li><li><strong>AU: </strong>Autorizado</li></ul>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 429,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que se indicase unha titularidade para a referencia catastral no campo <i>CodTitularidade</i> se indique un valor para os campos <i>TIPO VIA</i>, <i>NOME VIA</i>, <i>Nº</i>, <i>CP</i>, <i>TELÉFONO</i></p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 430,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que as referencias catastrais que se indican no campo <i>REFCAT</i> sexan referencias catastrais indicadas no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 431,
+              "tipoInstrumento": "PO",
+              "codPlano": "ETTPO",
+              "validacion": "<p>Comprobe que todas as referencias catastrais que se indican no plano <i>A2.Plano de parcelas catastrais</i> sexan indicadas no arquivo <i>A2.TaboaTitularesCatastrais.xls</i>.</p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 13
+        },
+        {
+          "title": "Excel de actuacións",
+          "validations": [
+            {
+              "id": 259,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 260,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que se indica un valor para o campo <i>GeoUA</i>. Este campo debe ter a seguinte estrutura:<ul><li>Se a actuación é a nivel de instrumento, debe coincidir coa referencia do instrumento sobre o que se desexa adxuntar o excel</li><li>Se a actuación é a nivel de monte, o campo <i>GeoUA</i> debe ter a seguinte estrutura: referencia_instrumento + IDMONTE</li><li>Se a actuación é a nivel de unidade de ordenación, o campo <i>GeoUA</i> debe ter a siguiente estrutura: referencia_instrumento + Cuartel + UO + UA</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 261,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que exista a relación <i>IDMONTE-CUARTEL-UA-UO</i> (datos introducidos no plano <i>F. Plano de Actuacións</i>).</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 262,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que se a actuación é a nivel de instrumento ou a nivel de monte, os campos <i>CUARTEL</i>, <i>UA</i> e <i>UO</i> veñan baleiros.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 263,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que se indica un valor para o tipo de actuación no campo <i>TipoAct</i> e que este tipo se corresponda co nivel indicado para a actuación (a nivel de instrumento, a nivel de monte ou a nivel de unidad de ordenación).</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 264,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que se indica un valor para a prioridade da actuación. Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Alta</li><li><strong>2</strong>: Media</li><li><strong>3</strong>: Baixa</li></ul></p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 265,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que se indica un valor para os campos <i>Ano inicio</i>, <i>Ano fin</i>, <i>Ingreso</i> e <i>Investimento</i> e que sexan valores correctos: os campos <i>Ingreso</i> e <i>Investimento</i> deben ser valores numéricos positivos, mentras que o campo <i>Ano Inicio</i> debe ser menor ou igual que o campo <i>Ano fin</i> e ningún deles pode ser negativo.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 406,
+              "tipoInstrumento": "PO",
+              "codPlano": "EACT",
+              "validacion": "<p>Comprobe que se indica un valor para o campo <i>ValorMed</i>, se indique unha unidade de medición valida no campo <i>UdMed</i></p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 14
+        },
+        {
+          "title": "Excel de valores dasométricos",
+          "validations": [
+            {
+              "id": 271,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 272,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe, para cada registro da excel, que existe aa relación <i>IDMONTE-CODESTRATO-CANTON MOUTEIRA-SP</i>, de acordo aos datos introducidos no plano <i>D1.Plano de inventario</i>. Comprobe, ademáis, que se indican datos para todas as combinacións <i>IDMONTE-CODESTRATO CANTON-MOUTEIRA-SP</i> introducidos no plano <i>D1.Plano de inventario</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 273,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe que se india un valor para a corta final. Os posibles valores son os seguintes:<ul><li><strong>Sí</strong></li><li><strong>Non</strong></li></ul></p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 274,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe que cando o tipo de monte non é un dos seguintes: <i>121, 122, 123, 125, 126, 127, 131, 132 ,134, 150, 171, 173</i>, se indican valores para a idade media e a densidade nos campos <i>t</i> e <i>N</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 275,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe que se o campo corta final ten o valor <i>Sí</i>, se indican valores non nulos para a altura dominante, a área basimétrica, volumen con casca, volumen sin casca e crecemento nos campos <i>Ho</i>, <i>G</i>, <i>V</i>, <i>Vsc</i> e <i>Cc</i> respectivamente.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 276,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe que se o monte ten superficie de xestión pública, se indica un valor para a biomasa no campo <i>W</i>. Para saber se o monte ten superficie de xestión pública, é necesario consultar o plano <i>A2.Plano de parcelas catastrais</i> e comprobar se o monte correspondente ten un valor non nulo no campo <i>SXPUBLICA</i>.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 400,
+              "tipoInstrumento": "PO",
+              "codPlano": "EVD",
+              "validacion": "<p>Comprobe que, se se indica un valor no campo <i>CARBONO ACUMULADO</i>, dito valor sexa numérico maior que cero.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 15
+        },
+        {
+          "title": "Excel de datos xerais",
+          "validations": [
+            {
+              "id": 387,
+              "tipoInstrumento": "PO",
+              "codPlano": "EDX",
+              "validacion": "<p>O arquivo  excel E.DatosXerais.xls é opcional</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 391,
+              "tipoInstrumento": "PO",
+              "codPlano": "EDX",
+              "validacion": "<p>Comprobe que se indica un valor para os campos Duración plan xeral, Data inicio e Data fin</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 388,
+              "tipoInstrumento": "PO",
+              "codPlano": "EDX",
+              "validacion": "<p>O campo Duración plan xeral debe ser numérico maior que cero</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 389,
+              "tipoInstrumento": "PO",
+              "codPlano": "EDX",
+              "validacion": "<p>O campo Data inicio debe ser unha data co formato dd/mm/ aaaa</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 390,
+              "tipoInstrumento": "PO",
+              "codPlano": "EDX",
+              "validacion": "<p>O campo Data fin debe ser unha data co formato dd/mm/ aaaa</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 17
+        },
+        {
+          "title": "Excel de responsables regulación pastoreo",
+          "validations": [
+            {
+              "id": 401,
+              "tipoInstrumento": "PO",
+              "codPlano": "ERESP",
+              "validacion": "<p>Engada este excel só no caso de indicar regulación de pastoreo no plano E e querer declarar máis responsables dos que se permite engadir nese plano.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 402,
+              "tipoInstrumento": "PO",
+              "codPlano": "ERESP",
+              "validacion": "<p>O NIF é obrigatorio (pode ser un NIF, NIE ou CIF). Se se indica unha persoa física será obrigatorio indicar nome e apelidos, mentres que se se indica unha figura xurídica só será obrigatorio o Nome/Razón social. O email é opcional.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 457,
+              "tipoInstrumento": "PO",
+              "codPlano": "ERESP",
+              "validacion": "<p>A referencia catastral é obrigatoria e debe existir no plano E. Se quere indicar varios responsables para unha mesma referencia debe cubrir unha fila do excel por cada responsable, repetindo a referencia catastral.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 18
+        },
+        {
+          "title": "Excel de actividades sociorecreativas",
+          "validations": [
+            {
+              "id": 408,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais.</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 410,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que todos os servizos indicados no campo <i>Servizo</i>, sexan servizos indicados no plano <i>D2.Plano parcelas de muestreo y servicios en el monte</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 418,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que o UTMX e UTMY indicados nos campos <i>UTMX</i> e <i>UTMY</i>, correspondan cos indicados no plano <i>A2.Plano de parcelas catastrais</i> para o servizo indicado no campo <i>Servizo</i>.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 412,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se indica un valor para o tipo de actividade no campo <i>Tipo actividade</i> (valor obrigatorio). Os posibles valores son os seguintes:<ul><li><strong>1: </strong>Romerías y fiestas</li><li><strong>2: </strong>Deportiva</li><li><strong>3: </strong>Turística</li><li><strong>4: </strong>Cultural</li></ul></p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 411,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se indica un valor no campo <i>Nome actividade</i> (valor obrigatorio)(Máximo 512 caracteres).</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 414,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se indica un valor no o campo <i>Afecta todo monte</i> (valor opcional). Os posibles valores son os seguintes:<ul><li>Sí</li><li>Non</li></ul></p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 415,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se indica un valor no o campo <i>Puntual</i> (valor opcional). Os posibles valores son os seguintes:<ul><li>Sí</li><li>Non</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 416,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se o valor do campo <i>Puntual</i> é <i>Sí</i> indicase unha data no o campo <i>Data da celebración</i> (dd/mm/aaaa).</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 417,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se o valor do campo <i>Tipo actividade</i> é <i>3(Turístico)</i> indicase un valor no campo <i>Público</i>. Os posibles valores son os seguintes:<ul><li>Sí</li><li>Non</li></ul></p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 419,
+              "tipoInstrumento": "PO",
+              "codPlano": "EASR",
+              "validacion": "<p>Comprobe que se o valor do campo <i>Público</i> é <i>Sí</i> indicase un valor no campo <i>Promotor</i> (Máximo 80 caracteres).</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 18
+        },
+        {
+          "title": "Excel de plan forestal",
+          "validations": [
+            {
+              "id": 438,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPF",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.(valor obrigatorio)</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 442,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPF",
+              "validacion": "<p>Comprobe que os obxectivos indicados nos campos <i>OBXECT, INCOMP_TEMPO, INCOMP_ESPAZO</i> sexan obxectivos indicados no plano <i>E.Plano Ordenacion</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 443,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPF",
+              "validacion": "<p>Comprobe que non existan rexistros co mesmo obxectivo para un <i>IDMONTE</i>, é dicir, a relación <i>IDMONTE-OBXECT</i> debe ser única.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 439,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPF",
+              "validacion": "<p>Comprobe que se indica un valor no campo <i>OBXECT</i> (valor obrigatorio). Os posibles valores son os seguintes:<ul><li><strong>1:</strong> Madeireiro</li><li><strong>2:</strong> Protector</li><li><strong>3:</strong> Recreo</li><li><strong>4:</strong> Froitos</li><li><strong>5:</strong> Pasto</li><li><strong>6:</strong> Turístico</li><li><strong>7:</strong> Deportivo</li><li><strong>8:</strong> Cultural</li><li><strong>9:</strong> Cinexético</li><li><strong>10:</strong> Micolóxico</li><li><strong>11:</strong> Plantas aromáticas e medicinais</li><li><strong>12:</strong> Cortiza</li><li><strong>13:</strong> Mel</li><li><strong>14:</strong> Resina</li><li><strong>15:</strong> Resina (Investigación)</li><li><strong>16:</strong> Resina (Formación)</li><li><strong>17:</strong> Silvopastoril</li><li><strong>18:</strong> Leñas</li><li><strong>19:</strong> Redes de Faixas de Xestión de Biomasa</li></ul></p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 440,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPF",
+              "validacion": "<p>Comprobe que se indicase un valor nos campos <i>INCOMP_TEMPO</i> ou <i>INCOMP_ESPAZO</i> o valor é un dos indicados no punto anterior.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 441,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPF",
+              "validacion": "<p>Comprobe que se indicase mais dun valor nos campos <i>INCOMP_TEMPO</i> ou <i>INCOMP_ESPAZO</i> os valores estean separados por coma(,).</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 19
+        },
+        {
+          "title": "Excel de persoas no instrumento",
+          "validations": [
+            {
+              "id": 501,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Rol</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>1</strong>: Técnico principal</li><li><strong>2</strong>: Técnico secundario</li><li><strong>3</strong>: Técnico asociado</li><li><strong>7</strong>: Xestor / Gestor</li><li><strong>8</strong>: Representante</li></ul></p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 502,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se indica alomenos un técnico principal.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 503,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=1 (Técnico Principal) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i>, <i>Cód. Tipo Vía</i>, <i>Nome Vía</i>, <i>Nº</i>, <i>CP</i>, <i>Cód. Provincia</i>, <i>Cód. Concello</i>, <i>Teléfono</i>, <i>Colexio</i>, <i>Nº Colexiado</i>, <i>Cód. Profesión</i>, <i>Cód. Centro</i>, <i>Cód. Título</i> (Valores obrigatorios)</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 504,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=2 (Técnico Secundario) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i> (Valores obrigatorios)</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 505,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=3 (Técnico Asociado) indícanse datos para os campos <i>NIF</i>, <i>Nome</i> (Valores obrigatorios)</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 506,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=7 (Xestor) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i>, <i>Cód. Tipo Vía</i>, <i>Nome Vía</i>, <i>Nº</i>, <i>CP</i>, <i>Cód. Provincia</i>, <i>Cód. Concello</i>, <i>Teléfono</i>(Valores obrigatorios) e os campos <i>Colexio</i>, <i>Nº Colexiado</i>, <i>Cód. Profesión</i>, <i>Cód. Centro</i>, <i>Cód. Título</i> estean baleiros.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 496,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=8 (Representante) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i> (Valores obrigatorios) e os campos <i>Colexio</i>, <i>Nº Colexiado</i>, <i>Cód. Profesión</i>, <i>Cód. Centro</i>, <i>Cód. Título</i> estean baleiros.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 497,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Provincia</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos.</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 498,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Concello</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos.</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 499,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Tipo Vía</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos.</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 500,
+              "tipoInstrumento": "PO",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Profesión</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>1</strong>: Enxeñería de montes</li><li><strong>2</strong>: Enxeñería técnica forestal</li><li><strong>3</strong>: Grao en Enxeñería Forestal e do Medio Natural</li><li><strong>4</strong>: Máster Universitario en Enxeñería de Montes</li></ul></p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 20
+        },
+        {
+          "title": "Excel de outros aproveitamentos forestais",
+          "validations": [
+            {
+              "id": 480,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 481,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe, para cada rexistro da excel, que existe aa relación <i>IDMONTE-CODESTRATO-CANTON-MOUTEIRA</i>, de acordo aos datos introducidos no plano <i>D1.Plano de inventario</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 482,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que o valor indicado para o id tipo aproveitamento no campo <i>IdTipoAproveitamento</i> sexa un dos posibles seguintes valores:<br><ul><li><strong>2:</strong> Pastos</li><li><strong>3:</strong> Cogomelos</li><li><strong>4:</strong> Froitos</li><li><strong>5:</strong> Aromáticas e medicinais</li><li><strong>6:</strong> Cortizas</li><li><strong>7:</strong> Mel</li><li><strong>9:</strong> Resinas</li></ul></p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 483,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento e Pastos, Aromáticas e medicinais, Cortizas, Mel ou Resinas o campo <i>Produto</i> non pode estar baleiro</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 484,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se indica un valor numérico no campo <i>Produción anual estimada</i></p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 485,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se indica un valor no campo <i>Unidade de produción</i> e que sexa unha unidade de produción valida.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 472,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se india un valor no campo <i>Comercializado</i>. Os posibles valores son os seguintes:<br><ul><li>Si</li><li>Non</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 473,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se india un valor no campo <i>Acoutado</i>. Os posibles valores son os seguintes:<br><ul><li>Si</li><li>Non</li></ul></p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 474,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento é <i>Cogomelos</i> se indique un valor no campo <i>IdTipoAprovCogomelos</i></p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 475,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento é <i>Cogomelos</i> se indique un valor no campo <i>IdTipoEspecieCogomelos</i></p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 476,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento é <i>Cogomelos</i> se indique un valor no campo <i>IdEspeciesCogomelos</i></p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 477,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento é <i>Cogomelos</i> e o <i>IdTipoEspecieCogomelos</i> e <strong>5</strong>-Outras especies non reflectidas no anterior, se indique un valor no campo <i>Produto</i></p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 478,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento é <i>Froitos</i> se indique un valor no campo <i>IdEspeciesFroitos</i></p>",
+              "orden": 13,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 479,
+              "tipoInstrumento": "PO",
+              "codPlano": "EOAF",
+              "validacion": "<p>Comprobe que se o tipo de aproveitamento é <i>Frotios</i> e o <i>IdEspeciesFroitos</i> e <strong>9</strong>-Outros, se indique un valor no campo <i>Produto</i></p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 21
+        },
+        {
+          "title": "Excel de climatoloxía",
+          "validations": [
+            {
+              "id": 449,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que todos os montes indicados no campo <i>IDMONTE</i> sexan montes indicados no plano <i>A2.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 450,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se indica un código de estación no campo <i>CodEstacion</i>, e que o valor sexa válido.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 452,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se se indica un valor no campo <i>CodDireccionVento</i>, sexa un dos seguintes valores posibles:<ul><li><strong>N:</strong> Norte</li><li><strong>NE:</strong> Noreste</li><li><strong>E:</strong> Este</li><li><strong>SE:</strong> Sureste</li><li><strong>S:</strong> Sur</li><li><strong>SO:</strong> Suroeste</li><li><strong>O:</strong> Oeste</li><li><strong>NO:</strong> Noroeste</li></ul></p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 451,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se se indica mais de un valor no campo <i>CodDireccionVento</i> estes sexan separados por punto y coma (;)</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 453,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se se indica un o mais valores no campo <i>CodDireccionVento</i> se indique valores no campo <i>Velocidade Vento (km/h)</i> no orden correspondente</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 454,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se se indica mais de un valor no campo <i>Velocidade Vento (km/h)</i> estes sexan separados por punto y coma (;)</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 455,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se se indica mais de un valor no campo <i>CodEspecies por calidade de estación - Indicadas</i> estes sexan separados por punto y coma (;)</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 456,
+              "tipoInstrumento": "PO",
+              "codPlano": "EC",
+              "validacion": "<p>Comprobe que se se indica mais de un valor no campo <i>CodEspecies por calidade de estación - Alternativas</i> estes sexan separados por punto y coma (;)</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 22
+        }
+      ]
+    },
+    "dx": {
+      "title": "Documentos Simples de Gestión / Documentos Compartidos de Gestión",
+      "documentos": [
+        {
+          "title": "DSDC1.Plano das parcelas catastrais",
+          "validations": [
+            {
+              "id": 513,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que o valor indicado para o campo <i>IDMONTE</i> sexa un valor numérico maior que cero e os montes indicados coinciden cos que indicou no formulario de alta do instrumento.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 277,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que as referencias catastrais que se indican nos campos <i>REFCAT</i> sexan correctas.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 278,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe para cada un dos campos de superficie (<i>SLITIX, SENCRA, SARRENDA, SCESION, SDERSUP, SOCUPA, SSERVI, SOUTROS, SNONFOR, SXPUBLICA</i> e <i>SXPROPIA</i>), que os valores indicados sexan numéricos e iguais ou maiores que cero.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 279,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que en cada un dos rexistros, soamente un dos campos de superficie teña un valor non nulo.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 280,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPC",
+              "validacion": "<p>Comprobe que a superficie de xestión pública sexa nula, posto que un <i>DSX/DCX</i> non pode ter superficie de xestión pública.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "title": "DSDC6.Plano de estratos de inventario",
+          "validations": [
+            {
+              "id": 307,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 308,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se indica un valor para o código de estrato no campo <i>CODESTRATO</i> (valor obrigatorio) e que sexa numérico e cunha lonxitude de dous ou catro díxitos.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 309,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que o valor indicado para o tipo de estrato no campo <i>TIPOEST</i> sexa válido.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 310,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que cando o tipo de estrato é arbóreo (<i>TIPOEST = 1</i>), se indica un valor para o tipo de masa no campo <i>TIPOMASA</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 311,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que o valor indicado para a densidade no campo <i>DENSIDADE</i> sexa un dos posibles seguintes valores:<ul><li><strong>0</strong>: Non procede clasificación</li><li><strong>1</strong>: Baixa</li><li><strong>2</strong>: Media</li><li><strong>3</strong>: Alta</li></ul></p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 312,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo (<i>TIPOEST = 1</i>), se indica un valor para a forma da masa no campo <i>CODFORMA</i>. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non procede</li><li><strong>1</strong>: Coetánea</li><li><strong>2</strong>: Regular</li><li><strong>3</strong>: Semirregular</li><li><strong>4</strong>: Irregular</li></ul></p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 313,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que si o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo (<i>TIPOEST = 1</i>), se indica un valor para a orixe da masa no campo <i>CODORIXE</i>. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non procede</li><li><strong>1</strong>: Semilla</li><li><strong>2</strong>: Plantación</li><li><strong>3</strong>: Brote de cepa ou ráiz</li><li><strong>4</strong>: Mixto semente e brote de cepa</li><li><strong>5</strong>: Mixto semente e plantación</li><li><strong>6</strong>: Mixto plantación e brote de cepa</li><li><strong>7</strong>: Todos</li></ul></p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 314,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se se indica un valor para cada especie nos campos <i>SP1</i>, <i>SP2</i> e <i>SP3</i>, sexan valores correctos.</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 315,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe para cada un dos estados das especies indicados nos campos <i>E1</i>, <i>E2</i> e <i>E3</i>, o seguinte: Se levan asociados unha especie (se indica un valor nos campos <i>SP1</i>, <i>SP2</i> ou <i>SP3</i>), e o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo, se indica un valor para para o campo <i>E1</i>, <i>E2</i> ou <i>E3</i> correspondente. Os posibles valores son os seguintes:<ul><li><strong>0</strong>: Non procede a calificación</li><li><strong>1</strong>: Repoboado</li><li><strong>2</strong>: Monte bravo</li><li><strong>3</strong>: Latizal</li><li><strong>4</strong>: Futsal</li><li><strong>5</strong>: Monte bravo con repoboado</li><li><strong>6</strong>: Futsal con latizal</li><li><strong>7</strong>: Futsal e/ou latizal con subpiso</li><li><strong>8</strong>: Diseminado</li><li><strong>9</strong>: En rexeneración</li></ul></p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 316,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe para cada unha das ocupacións das especies indicadas nos campos <i>O1</i>, <i>O2</i> e <i>O3</i>, o seguinte: Se levan asociados unha especie (se indica un valor nos campos <i>SP1</i>, <i>SP2</i> ou <i>SP3</i>), e o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo, se indica un valor para para o campo <i>O1</i>, <i>O2</i> ou <i>O3</i> correspondente. Os valores deben estar comprendidos no rango 1-10</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 317,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se o tipo de estrato indicado no campo <i>TIPOEST</i> é arbustivo, se non se indica un valor para o tipo de masa no campo <i>TIPOMASA</i>, o <i>FCC</i> debe ser un valor numérico comprendido no rango 0-100%.</p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 318,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que se o tipo de estrato indicado no campo <i>TIPOEST</i> é arbóreo (<i>TIPOEST =1</i>), se indica un valor para a fracción de cabida cuberta no campo <i>FCC</i>, ademais debe ser un valor numérico comprendido no rango 10-100%.</p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 319,
+              "tipoInstrumento": "DX",
+              "codPlano": "PINV",
+              "validacion": "<p>Comprobe que a suma das superficies indicadas no plano non sexa superior á superficie de ordenación do plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 15,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 2
+        },
+        {
+          "title": "DSDC2.Plano de cualificación urbanística",
+          "validations": [
+            {
+              "id": 281,
+              "tipoInstrumento": "DX",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 282,
+              "tipoInstrumento": "DX",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>CODSOLO</i>, sexan correctos. Os posibles valores son os seguintes:<ul><li><strong>SNOUR</strong>: Urbanizable no delimitado o urbanizable delimitado (en el caso de transitoria quinta de la Lei  7/2012 de montes de Galicia)</li><li><strong>SRPFO</strong>: Rústico de protección forestal</li><li><strong>SRPIN</strong>: Rústico de protección infraestructuras</li><li><strong>SRPAG</strong>: Rústico de protección das augas</li><li><strong>SRPCO</strong>: Rústico de protección de costas</li><li><strong>SRPEN</strong>: Rústico de protección de espacios naturales</li><li><strong>SRPPA</strong>: Rústico de protección paisaxística</li><li><strong>SRPCU</strong>: Rústico de protección patrimonial</li><li><strong>SNORU</strong>: Urbano, de núcleo rural o urbanizable delimitado (excepto disp. transitoria quinta de la Lei 7/2012 de montes de Galicia)</li><li><strong>SRPAP</strong>: Rústico de protección agropecuaria</li><li><strong>SNORU</strong>: Urbano, de núcleo rural o urbanizable delimitado (excepto disp. transitoria quinta de la Lei 7/2012 de montes de Galicia)</li><li><strong>SRPOR</strong>: Rústico de protección ordinaria (excepto destinados a cultivo agrícola)</li><li><strong>SRPAR</strong>: Rústico de protección ordinaria destinados a cultivo agrícola</li><li><strong>DP</strong>: Dominio público (excepto dominio público forestal)</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 283,
+              "tipoInstrumento": "DX",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe que os valores indicados para a superficie no campo <i>SUPERFICIE</i> sexan valores numéricos maiores que cero.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 284,
+              "tipoInstrumento": "DX",
+              "codPlano": "PCU",
+              "validacion": "<p>Comprobe para cada tipo de solo indicado no campo <i>CODSOLO</i>, que a superficie asociada, non sexa maior que a superficie ordenada no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 3
+        },
+        {
+          "title": "DSDC3.Plano de limitacións bióticas/abióticas",
+          "validations": [
+            {
+              "id": 285,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 286,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores indicados para o dano no campo <i>CODDANOS</i>, sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>100</strong>: Caza e gando</li><li><strong>200</strong>: Insectos</li><li><strong>300</strong>: Fungos</li><li><strong>600</strong>: Lume</li><li><strong>800</strong>: Outras</li><li><strong>900</strong>: Especies exóticas invasoras</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 287,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores indicados para as especies no campo <i>CODSP</i> sexan válidos.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 288,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que se o tipo de dano indicado no campo <i>CODDANOS</i> é <i>Lume (600)</i> ou <i>Outros (800)</i>, a especie indicada no campo <i>CODSP</i> sexa nula.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 289,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores indicados para o grao de afectación no campo <i>CODGRAO</i>, sean válidos. Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Leve</li><li><strong>2</strong>: Moderado</li><li><strong>3</strong>: Grave</li><li><strong>4</strong>: Moi grave</li></ul></p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 290,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que os valores introducidos para as superficies no campo <i>SUPAFECTA</i> sexan valores numéricos maiores que cero.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 291,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe para cada un dos rexistros do plano, que a superficie indicada, non sexa maior que a superficie ordenada no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 445,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que se o tipo de dano indicado no campo <i>CODDANOS</i> é <i>Lume (600)</i> se indica unha data có formato dd/mm/aaaa no campo <i>DATALUME</i></p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 446,
+              "tipoInstrumento": "DX",
+              "codPlano": "DAN",
+              "validacion": "<p>Comprobe que se o tipo de dano indicado no campo <i>CODDANOS</i> é diferente de <i>Lume (600)</i> o campo <i>DATALUME</i> este baleiro</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 4
+        },
+        {
+          "title": "DSDC5.Plano de outras limitacións",
+          "validations": [
+            {
+              "id": 297,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 298,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que os tipos de limitación indicados no campo CODLIM, sexan correctos. Os posibles tipos de limitación son os seguintes:<ul><li><strong>ENP</strong>: Limitacións por espacios protexidos</li><li><strong>SPA</strong>: Limitacións por especies ameazadas</li><li><strong>ARS</strong>: Limitacións por árbores senlleiras</li><li><strong>PCS</strong>: Limitacións de patrimonio por camiño de Santiago</li><li><strong>POC</strong>: Limitacións por ordenación cinexética</li><li><strong>UDA</strong>: Limitacións por unidades ambientais</li><li><strong>OUT</strong>: Outro tipo de limitacións</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 299,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación distintos de <i>CODLIM = ARS</i> e <i>CODLIM = OUT</i>, se indique unha figura de limitación no campo <i>CODFIGURA</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 300,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación <i>CODLIM = ARS</i> e <i>CODLIM = OUT</i>, no caso de indicar unha figura de limitación (valor opcional), sexa unha figura válida para a limitación correspondente.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 301,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para o tipo de limitación <i>CODLIM = PCS</i>, se se indica un valor para o nome da figura de limitación no campo <i>CODNOME</i>, dito valor segue algunha das seguintes pautas:<ul><li>Empece pola cadea <i>\"GA\"</i>, que os dous seguintes caracteres a dita cadea se correspondan con algún dos códigos das provincias de Galicia (15, 27, 32, 36) e que a lonxitude total sexa de dez caracteres</li><li>Empece por algún dos posibles caracteres rexistrados na aplicación</li></ul></p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 302,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación distintos a <i>CODLIM = PCS</i> e <i>CODLIM = OUT</i>, se indica un valor para o nome da figura no campo <i>CODNOME</i> (campo obrigatorio) e que sexa un valor correcto, agás cando a figura de limitación se corresponde cunha figura de ordenación cinexética deportiva (valor 404), en cuio caso o campo <i>CODNOME</i> é opcional.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 303,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para os tipos de limitación <i>CODLIM = ARS</i> e <i>CODLIM = PCS</i>, se indica un valor numérico para os campos <i>UTMX</i> e <i>UTMY</i> (valores obrigatorios), excepto no caso de Camiño de Santiago que non sería necesario.<p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 304,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para o tipo de limitación <i>CODLIM = OUT</i> en caso de non indicar un valor para a superficie no campo <i>SUPAFECTA</i>, se indica un valor para os campos <i>UTMX</i> e <i>UTMY</i>, posto que neste caso son obrigatorios.</p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 305,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para cada un dos rexistros do plano, o valor do campo <i>CODNOME</i> se corresponde cun valor posible en función do valor indicado no campo <i>CODFIGURA</i>.</p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 306,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que para cada un dos rexistros do plano, a superficie indicada non sexa superior á superficie de ordenación do plano <i>DSDC1.Plano de parcelas catastrais</i>, excepto para o caso <i>CODLIM = OUT</i> no que XORFOR non realiza a comprobación de superficies de ordenación.</p>",
+              "orden": 13,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 492,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que se o código de limitación indicado no campo <i>CODLIM</i> é <i>OUT</i> se indica unha descrición no campo <i>DESCRICION</i> (a lonxitude máxima é 120 caracteres).</p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 493,
+              "tipoInstrumento": "DX",
+              "codPlano": "OUT",
+              "validacion": "<p>Comprobe que se o código de limitación indicado no campo <i>CODLIM</i> non é <i>OUT</i> o campo <i>DESCRICION</i> este baleiro</p>",
+              "orden": 15,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 5
+        },
+        {
+          "title": "DSDC4.Plano de limitacións hidrográficas",
+          "validations": [
+            {
+              "id": 292,
+              "tipoInstrumento": "DX",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 293,
+              "tipoInstrumento": "DX",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que os valores indicados para as demarcacións hidrográficas no campo <i>CODDEM</i> sexan válidos. Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Galicia-Costa</li><li><strong>2</strong>: Miño-Sil</li><li><strong>3</strong>: Cantábrico occidental</li><li><strong>4</strong>: Douro</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 294,
+              "tipoInstrumento": "DX",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que os valores indicados para as bacías hidrográficas no campo <i>CODBACIA</i> sexan valores numéricos non nulos.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 295,
+              "tipoInstrumento": "DX",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que para cada rexistro do plano, soamente un dos campos de superficie teña un valor maior que cero.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 296,
+              "tipoInstrumento": "DX",
+              "codPlano": "HID",
+              "validacion": "<p>Comprobe que a superficie ordenada non sexa maior que a superficie ordenada no plano <i>DSDC1.Plano de parcelas catastrais</i>. A superficie ordenada no plano DSDC4 é a suma de todos os valores dos campos de superficie, excepto [SDPH].</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 6
+        },
+        {
+          "title": "DSDC7.Plano de planificación forestal",
+          "validations": [
+            {
+              "id": 320,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 322,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se indica alomenos un valor para os obxectivos principais do cuartel no campo <i>OBXPPAL</i>(valor obrigatorio). Os posibles valores son os seguintes:<ul><li><strong>1</strong>: Madeireiro</li><li><strong>2</strong>: Protector</li><li><strong>3</strong>: Recreo</li><li><strong>4</strong>: Froitos</li><li><strong>5</strong>: Pasto</li><li><strong>6</strong>: Turístico</li><li><strong>7</strong>: Deportivo</li><li><strong>8</strong>: Cultural</li><li><strong>9</strong>: Cinexético</li><li><strong>10</strong>: Micolóxico</li><li><strong>11</strong>: Plantas aromáticas e medicinais</li><li><strong>12</strong>: Cortiza</li><li><strong>13</strong>: Mel</li><li><strong>14</strong>: Resina</li><li><strong>15</strong>: Resina (Investigación)</li><li><strong>16</strong>: Resina (Formación)</li><li><strong>17</strong>: Silvopastoril</li><li><strong>18</strong>: Leñas</li><li><strong>19</strong>: Redes de Faixas de Xestión de Biomasa</li></ul></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 321,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que, se se indica algún valor para os obxectivos secundarios do cuartel no campo <i>OBXSEC</i> (valor opcional), é un dos indicados no punto anterior.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 323,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se indican valores numéricos positivos para as superficies nos campos <i>SUPAFECTA</i>.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 486,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que o tipo de aproveitamento do modelo indicado no campo <i>MS</i>, se corresponde cos obxectivos sinalados para o cuartel correspondente.<br>A continuación explícanse os modelos admitidos para cada obxectivo por tipo de aproveitamento:</p><ul><li>Os modelos con tipo de aproveitamento <strong>madeireiro</strong> (BC1, CS1, EG1, EG2, EN1, EN2, PA1, PCA, PFMV, PM1, PP1, PP2, PP3, PR1, PR2, PR3 ou específicos nos que se seleccione o tipo de aproveitamento madeireiro) serán admitidos en cuarteis nos que conste alomenos un obxectivo <strong>1-Madeireiro</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>pascícola</strong> (SP ou específicos nos que se seleccione o tipo de aproveitamento pascícola) serán admitidos en cuarteis nos que conste alomenos un obxectivo <strong>5-Pasto</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>silvopastoril</strong> (SS1 ou específicos nos que se seleccione o tipo de aproveitamento silvopastoril) serán admitidos en cuarteis nos que conste alomenos un obxectivo <strong>17-Silvopastoril</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>madeira-resina</strong> (PMR ou específicos nos que se seleccione o tipo de aproveitamento madeira-resina) serán admitidos en cuarteis nos que conste alomenos un dos seguintes obxectivos <strong>1-Madeireiro</strong>, <strong>14-Resina</strong>, <strong>15-Resina (Investigación)</strong>, <strong>16-Resina (Formación)</strong>.</li><li>Os modelos con tipo de aproveitamento <strong>multifuncional</strong> (CS2, PF1, PN1, PF2, PPA1, PS1, PS2, QP1, QP2, QR1, QR2, QS1, SEF, SPN, XFAS ou específicos nos que se seleccione o tipo de aproveitamento multifuncional) serán admitidos para todos os obxectivos.</li><li>Os modelos con tipo de aproveitamento <strong>conservación</strong> (CS3, BA, RR, XBR ou específicos nos que se seleccione o tipo de aproveitamento conservación) serán admitidos para todos os obxectivos.</li></ul>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 324,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se indica un valor numérico positivo para a idade no campo <i>IDADE</i>.</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 325,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se indica o código identificativo do modelo silvícola no campo <i>MS</i>, e que está entre aqueles aos que ten acceso, sexa porque é de tipo orientativo, sexa porque se trata dun modelo específico creado por vostede. No caso dos modelos específicos, comprobe ademais que o MS indicado non está excluído dos concellos e está habilitado para algún dos distritos do instrumento.</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 444,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se indica un tipo de modelo silvícola no campo <i>TIPOMOD</i>. Os posibles valores son os seguintes:<ul><li><strong>O</strong>: Orientativo</li><li><strong>E</strong>: Específico</li></ul></p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 487,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que a suma das superficies indicadas no plano, non sexa superior á superficie de ordenación do plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 12,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 488,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se hai regulación ou prohibición total a superficie do plano DSDC7 non pode ser inferior á superficie ordenada do plano DSDC1 en máis dun 10%.</p>",
+              "orden": 13,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 489,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que, de indicarse unha, e ata tres, especies de gando, os valores estean entre os admitidos: <ul><li><strong>1</strong>: Caprino</li><li><strong>2</strong>: Equino</li><li><strong>3</strong>: Ovino</li><li><strong>4</strong>: Bovino</li><li><strong>5</strong>: Porcino</li></ul></p>",
+              "orden": 14,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 490,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que, de indicarse un valor de regulación de pastoreo ou acoutamento micolóxico, está entre os admitidos: <ul><li><strong>1</strong>: Prohíbe parcial pastoreo</li><li><strong>2</strong>: Prohíbe total pastoreo</li><li><strong>3</strong>: Regula parcial pastoreo</li><li><strong>4</strong>: Regula total pastoreo</li><li><strong>10</strong>: Acoutamento micolóxico</li><li><strong>11</strong>: Acoutamento micolóxico e prohíbe parcial pastoreo</li><li><strong>12</strong>: Acoutamento micolóxico e prohíbe total pastoreo</li><li><strong>13</strong>: Acoutamento micolóxico e regula parcial pastoreo</li><li><strong>14</strong>: Acoutamento micolóxico e regula total pastoreo</li></ul></p>",
+              "orden": 15,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 491,
+              "tipoInstrumento": "DX",
+              "codPlano": "PPFO",
+              "validacion": "<p>Comprobe que se se indica no campo PR_A algunha das opcións de regulación de pastoreo (3, 4, 13 ou 14), se cubren alomenos os datos dun responsable.</p>",
+              "orden": 16,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 7
+        },
+        {
+          "title": "Excel de titulares",
+          "validations": [
+            {
+              "id": 326,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que todas as referencias catastrais indicadas no campo <i>REFCAT</i> sexan referencias introducidas no plano <i>DSDC1.Plano de parcelas catastrais</i>.</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 327,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indica un valor para o <i>NIF</i> do titular.</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 328,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indica un valor para os campos <i>NOME</i>, <i>APELIDO 1</i>, <i>APELIDO 2</i> do titular.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 329,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indica alomenos un titular ou representante por referencia catastral.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 330,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indica un valor no campo <i>CodTitularidade</i> ou <i>CodRepresentante</i> por registro.</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 432,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que o valor indicado para o tipo de titularidade no campo <i>CodTitularidade</i>, sexa un dos seguintes valores posibles: </p><ul><li><strong>CA: </strong>Concesión administrativa</li><li><strong>DS: </strong>Dereito de superficie</li><li><strong>US: </strong>Usufructo</li><li><strong>PR: </strong>Propiedade</li><li><strong>DF: </strong>Desfrute</li></ul>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 433,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indique o porcentaxe de titularidade no campo <i>Porcentaxe</i>.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 434,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que a suma do porcentaxe de titularidade por referencia catastral non supere o 100%.</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 435,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indicase un valor para o tipo de representante no campo <i>CodRepresentante</i>, sexa un dos seguintes valores posibles: </p><ul><li><strong>XE: </strong>Xestor</li><li><strong>AP: </strong>Apoderado</li><li><strong>CO: </strong>Contratado</li><li><strong>AU: </strong>Autorizado</li></ul>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 436,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indicase unha titularidade para a referencia catastral no campo <i>CodTitularidade</i> se indique un valor para os campos <i>TIPO VIA</i>, <i>NOME VIA</i>, <i>Nº</i>, <i>CP</i>, <i>TELÉFONO</i></p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 399,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que se indica un valor para o campo <i>CodTipoMonte</i> e <i>CodTipoPropiedade</i></p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 396,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que as referencias catastrais que se indican no campo <i>REFCAT</i> sexan referencias catastrais indicadas no plano <i>DSDC1.Plano de parcelas catastrais.\n</i>.</p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 398,
+              "tipoInstrumento": "DX",
+              "codPlano": "ETDX",
+              "validacion": "<p>Comprobe que todas as referencias catastrais que se indican no plano <i>DSDC1.Plano de parcelas catastrais</i> sexan indicadas no arquivo <i>DSDC1.TaboaTitularesCatastrais.xls</i>.</p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 8
+        },
+        {
+          "title": "Excel de persoas no instrumento",
+          "validations": [
+            {
+              "id": 461,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Rol</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>1</strong>: Técnico principal</li><li><strong>2</strong>: Técnico secundario</li><li><strong>3</strong>: Técnico asociado</li><li><strong>7</strong>: Xestor / Gestor</li><li><strong>8</strong>: Representante</li></ul></p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 462,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se indica alomenos un técnico principal.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 463,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=1 (Técnico Principal) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i>, <i>Cód. Tipo Vía</i>, <i>Nome Vía</i>, <i>Nº</i>, <i>CP</i>, <i>Cód. Provincia</i>, <i>Cód. Concello</i>, <i>Teléfono</i>, <i>Colexio</i>, <i>Nº Colexiado</i>, <i>Cód. Profesión</i>, <i>Cód. Centro</i>, <i>Cód. Título</i> (Valores obrigatorios)</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 464,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=2 (Técnico Secundario) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i> (Valores obrigatorios)</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 465,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=3 (Técnico Asociado) indícanse datos para os campos <i>NIF</i>, <i>Nome</i> (Valores obrigatorios)</p>",
+              "orden": 5,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 466,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=7 (Xestor) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i>, <i>Cód. Tipo Vía</i>, <i>Nome Vía</i>, <i>Nº</i>, <i>CP</i>, <i>Cód. Provincia</i>, <i>Cód. Concello</i>, <i>Teléfono</i> (Valores obrigatorios) e os campos <i>Colexio</i>, <i>Nº Colexiado</i>, <i>Cód. Profesión</i>, <i>Cód. Centro</i>, <i>Cód. Título</i> estean baleiros.</p>",
+              "orden": 6,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 467,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que se se indica <i>Cód. Rol</i>=8 (Representante) indícanse datos para os campos <i>NIF</i>, <i>Nome</i>, <i>Primeiro Apelido</i>, <i>Segundo Apelido</i> (Valores obrigatorios) e os campos <i>Colexio</i>, <i>Nº Colexiado</i>, <i>Cód. Profesión</i>, <i>Cód. Centro</i>, <i>Cód. Título</i> estean baleiros.</p>",
+              "orden": 7,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 468,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Provincia</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos.</p>",
+              "orden": 8,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 469,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Concello</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos.</p>",
+              "orden": 9,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 470,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Tipo Vía</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos.</p>",
+              "orden": 10,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 471,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPI",
+              "validacion": "<p>Comprobe que os valores indicados no campo <i>Cód. Profesión</i>, sexan válidos, é dicir, que non sexan nulos e que sexan códigos correctos. Os posibles valores para este campo son os seguintes:<ul><li><strong>1</strong>: Enxeñería de montes</li><li><strong>2</strong>: Enxeñería técnica forestal</li><li><strong>3</strong>: Grao en Enxeñería Forestal e do Medio Natural</li><li><strong>4</strong>: Máster Universitario en Enxeñería de Montes</li></ul></p>",
+              "orden": 11,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 10
+        },
+        {
+          "title": "Excel de datos xerais",
+          "validations": [
+            {
+              "id": 458,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPFDX",
+              "validacion": "<p>Comprobe que se indica un valor nos campos <i>Vixencia (anos)</i> e <i>Último ano vixente</i></p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 459,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPFDX",
+              "validacion": "<p>O valor do campo <i>Vixencia (anos)</i> debe ser numérico, enteiro, maior que cero</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 460,
+              "tipoInstrumento": "DX",
+              "codPlano": "EPFDX",
+              "validacion": "<p>O valor do campo <i>Último ano vixente</i> debe ser maior ou igual que o ano actual</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": 11
+        }
+      ]
+    },
+    "ams": {
+      "title": "Adhesiones a Modelo Silvícola",
+      "documentos": [
+        {
+          "title": "Excel de Adhesións",
+          "validations": [
+            {
+              "id": 331,
+              "tipoInstrumento": "AM",
+              "codPlano": "EAMS",
+              "validacion": "<p>Comprobe que as referencias catastrais que se indican no campo <i>REFCAT</i>  teñan o formato adecuado e sexan correctas.</p><p>O número de caracteres debe ser 14 ou 20: os dous primeros identifican a provincia, os tres seguintes o municipio, o seguinte é o carácter que corresponde ao sector, que sinala o agregado ou zona de concentración parcelaria (no seu caso), os tres seguintes identifican o polígono (o termo municipal divídese en polígonos en función da homoxeneidade de cultivos, existencia de accidentes xeográficos,...), os cinco seguintes identifican cada parcela dentro do polígono correspondente, os seguintes catro caracteres permitirán detectar ou identificar os inmobles existentes dentro da parcela e, finalmente, os dous últimos son caracteres de control que permiten coñecer se os anteriores son correctos.</p><p>Exemplos: 36010A04500182, 36010A045001820000DO</p>",
+              "orden": 1,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 332,
+              "tipoInstrumento": "AM",
+              "codPlano": "EAMS",
+              "validacion": "<p>Comprobe que se indica un valor para a especie no campo <i>ESPECIE</i> e que ademáis sexa un valor correcto e asociado ao modelo silvícola indicado no campo <i>MODELO</i>.</p>",
+              "orden": 2,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 333,
+              "tipoInstrumento": "AM",
+              "codPlano": "EAMS",
+              "validacion": "<p>Comprobe que se indica un modelo silvícola no campo <i>MODELO</i>, e que ademáis sexa un valor correcto e que se corresponda con algún dos modelos silvícolas existentes.</p><p>Os códigos a empregar para identificar <i>ESPECIE</i> e <i>MODELO</i> atópanse dentro do modelo de arquivo a empregar, que pode descargar dende a páxina de creación dunha adhesión, ou nesta mesma páxina de axuda na sección Follas de cálculo para importar datos.</p>",
+              "orden": 3,
+              "activa": "N",
+              "activaSimpl": "S"
+            },
+            {
+              "id": 381,
+              "tipoInstrumento": "AM",
+              "codPlano": "EAMS",
+              "validacion": "<p>Comprobe que se indican valores numéricos positivos para as superficies no campo <i>SUPERFICIE (ha)</i>.</p>",
+              "orden": 4,
+              "activa": "N",
+              "activaSimpl": "S"
+            }
+          ],
+          "order": -1
+        }
+      ]
+    }
+  },
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

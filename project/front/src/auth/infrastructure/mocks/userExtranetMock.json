@@ -1,0 +1,107 @@
+{
+  "usuario": "35695036W",
+  "nombre": "USER EXTRANET",
+  "tipoLogin": "casExtranet",
+  "logout": "https://sedegl-idbroker-ext.stg.xunta.local/cas/logout?service=%s",
+  "token": "ST-111707-IuWjE4bNgyau39JtDcui-cas",
+  "permissions": {
+    "configuracionAccion": [
+      {
+        "codigoAccion": "verAvisosInternos",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "verListadoNovasFiltroNivel",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "buscarInstrumentos",
+        "tipo": "PER"
+      },
+      {
+        "codigoAccion": "consultarInstrumentosMigrados",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "editarInstrumentos",
+        "tipo": "PER"
+      },
+      {
+        "codigoAccion": "consultarInstrumentos",
+        "tipo": "PER"
+      },
+      {
+        "codigoAccion": "editarAdhesion",
+        "tipo": "PER"
+      },
+      {
+        "codigoAccion": "consultarInstrumentosOcultos",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "editarTecnicosInstrumento",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "runRoutineTask",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "runDailyTask",
+        "tipo": "OFF"
+      },
+      {
+        "codigoAccion": "runMonthlyTask",
+        "tipo": "OFF"
+      }
+    ],
+    "resume": {
+      "all": {
+        "verAvisosInternos": "OFF",
+        "verListadoNovasFiltroNivel": "OFF",
+        "buscarInstrumentos": "PER",
+        "consultarInstrumentosMigrados": "OFF",
+        "editarInstrumentos": "PER",
+        "consultarInstrumentos": "PER",
+        "editarAdhesion": "PER",
+        "consultarInstrumentosOcultos": "OFF",
+        "editarTecnicosInstrumento": "OFF",
+        "runRoutineTask": "OFF",
+        "runDailyTask": "OFF",
+        "runMonthlyTask": "OFF"
+      },
+      "grants": {
+        "buscarInstrumentos": {
+          "tipo": "PER",
+          "servicio": "",
+          "provincia": "",
+          "distrito": ""
+        },
+        "editarInstrumentos": {
+          "tipo": "PER",
+          "servicio": "",
+          "provincia": "",
+          "distrito": ""
+        },
+        "consultarInstrumentos": {
+          "tipo": "PER",
+          "servicio": "",
+          "provincia": "",
+          "distrito": ""
+        },
+        "consultarModelos": {
+          "tipo": "PER",
+          "provincia": "",
+          "distrito": "",
+          "servizo": ""
+        },
+        "editarAdhesion": {
+          "tipo": "PER",
+          "servicio": "",
+          "provincia": "",
+          "distrito": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "data": [
+    {
+      "value": 32001,
+      "concello": "Allariz",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32002,
+      "concello": "Amoeiro",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32003,
+      "concello": "Arnoia (A)",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32004,
+      "concello": "Avión",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32005,
+      "concello": "Baltar",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32006,
+      "concello": "Bande",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32007,
+      "concello": "Baños de Molgas",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32008,
+      "concello": "Barbadás",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32009,
+      "concello": "Barco de Valdeorras (O)",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32010,
+      "concello": "Beade",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32011,
+      "concello": "Beariz",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32012,
+      "concello": "Blancos (Os)",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32013,
+      "concello": "Boborás",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32014,
+      "concello": "Bola (A)",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32015,
+      "concello": "Bolo (O)",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32016,
+      "concello": "Calvos de Randín",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32018,
+      "concello": "Carballeda de Avia",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32017,
+      "concello": "Carballeda de Valdeorras",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32019,
+      "concello": "Carballiño (O)",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32020,
+      "concello": "Cartelle",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32022,
+      "concello": "Castrelo de Miño",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32021,
+      "concello": "Castrelo do Val",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32023,
+      "concello": "Castro Caldelas",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32024,
+      "concello": "Celanova",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32025,
+      "concello": "Cenlle",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32029,
+      "concello": "Chandrexa de Queixa",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32026,
+      "concello": "Coles",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32027,
+      "concello": "Cortegada",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32028,
+      "concello": "Cualedro",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32030,
+      "concello": "Entrimo",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32031,
+      "concello": "Esgos",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32033,
+      "concello": "Gomesende",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32034,
+      "concello": "Gudiña (A)",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32035,
+      "concello": "Irixo (O)",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32038,
+      "concello": "Larouco",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32039,
+      "concello": "Laza",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32040,
+      "concello": "Leiro",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32041,
+      "concello": "Lobeira",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32042,
+      "concello": "Lobios",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32043,
+      "concello": "Maceda",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32044,
+      "concello": "Manzaneda",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32045,
+      "concello": "Maside",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32046,
+      "concello": "Melón",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32047,
+      "concello": "Merca (A)",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32048,
+      "concello": "Mezquita (A)",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32049,
+      "concello": "Montederramo",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32050,
+      "concello": "Monterrei",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32051,
+      "concello": "Muíños",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32052,
+      "concello": "Nogueira de Ramuín",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32053,
+      "concello": "Oímbra",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32054,
+      "concello": "Ourense",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32055,
+      "concello": "Paderne de Allariz",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32056,
+      "concello": "Padrenda",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32057,
+      "concello": "Parada de Sil",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32058,
+      "concello": "Pereiro de Aguiar (O)",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32059,
+      "concello": "Peroxa (A)",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32060,
+      "concello": "Petín",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32061,
+      "concello": "Piñor",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32063,
+      "concello": "Pobra de Trives (A)",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32064,
+      "concello": "Pontedeva",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32062,
+      "concello": "Porqueira",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32065,
+      "concello": "Punxín",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32066,
+      "concello": "Quintela de Leirado",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32067,
+      "concello": "Rairiz de Veiga",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32068,
+      "concello": "Ramirás",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32069,
+      "concello": "Ribadavia",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32071,
+      "concello": "Riós",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32072,
+      "concello": "Rúa (A)",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32073,
+      "concello": "Rubiá",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32074,
+      "concello": "San Amaro",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32075,
+      "concello": "San Cibrao das Viñas",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32076,
+      "concello": "San Cristovo de Cea",
+      "codDistrito": "3211"
+    },
+    {
+      "value": 32070,
+      "concello": "San Xoán de Río",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32077,
+      "concello": "Sandiás",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32078,
+      "concello": "Sarreaus",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32079,
+      "concello": "Taboadela",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32080,
+      "concello": "Teixeira (A)",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32081,
+      "concello": "Toén",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32082,
+      "concello": "Trasmiras",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32083,
+      "concello": "Veiga (A)",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32084,
+      "concello": "Verea",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32085,
+      "concello": "Verín",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32086,
+      "concello": "Viana do Bolo",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32087,
+      "concello": "Vilamarín",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32088,
+      "concello": "Vilamartín de Valdeorras",
+      "codDistrito": "3213"
+    },
+    {
+      "value": 32089,
+      "concello": "Vilar de Barrio",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32090,
+      "concello": "Vilar de Santos",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32091,
+      "concello": "Vilardevós",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32092,
+      "concello": "Vilariño de Conso",
+      "codDistrito": "3214"
+    },
+    {
+      "value": 32032,
+      "concello": "Xinzo de Limia",
+      "codDistrito": "3215"
+    },
+    {
+      "value": 32036,
+      "concello": "Xunqueira de Ambía",
+      "codDistrito": "3212"
+    },
+    {
+      "value": 32037,
+      "concello": "Xunqueira de Espadanedo",
+      "codDistrito": "3212"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

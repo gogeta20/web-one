@@ -1,0 +1,65 @@
+
+.scroll {
+  height: 500px;
+  overflow-y: auto;
+  /* overflow: scroll;*/
+}
+.fixed {
+  position: fixed;
+  width: 120px;
+}
+.checkTitle {
+  color: #0c9f11;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+.icon {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.icon .action {
+  cursor: pointer;
+}
+
+.icon .warning {
+  color: #f4ab0e;
+}
+
+.icon .eco {
+  color: #0c9f11;
+}
+
+.icon .delete {
+  color: red;
+}
+
+.icon .edit {
+  color: green;
+}
+
+.icon .see {
+  color: #006692;
+}
+.empty-apartado {
+  padding: 3rem !important;
+}
+
+.accion-no-editar {
+  color: rgb(146, 146, 146);
+  margin-right: 3px;
+}
+
+.classHeader {
+  font-weight: bold;
+}
+
+.select-rows {
+  width: auto;
+}
+
+.div-select-rows {
+  display: inline-flex;
+  align-items: center;
+}

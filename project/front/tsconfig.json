@@ -1,0 +1,25 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "declaration": false
+  },
+  "paths": {
+    "@/*": ["./src/*"]
+  },
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}

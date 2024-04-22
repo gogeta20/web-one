@@ -1,0 +1,24 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/**/*.json",
+    "src/**/__tests__/test-utils.ts"
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["DOM", "ESNext"],
+    "composite": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    "types": ["@intlify/vite-plugin-vue-i18n/client"]
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "data": [
+    {
+      "idTipovia": 1,
+      "descricion": "ACCESO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 2,
+      "descricion": "ALAMEDA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 3,
+      "descricion": "ALDEA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 4,
+      "descricion": "ALTO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 5,
+      "descricion": "APARTAMENTOS",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 6,
+      "descricion": "AUTOESTRADA / AUTOPISTA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 7,
+      "descricion": "AUTOVÍA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 8,
+      "descricion": "AVENIDA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 9,
+      "descricion": "BAIXADA / BAJADA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 10,
+      "descricion": "BARRIO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 11,
+      "descricion": "BEIRARRÚA / ACERA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 12,
+      "descricion": "BLOQUE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 13,
+      "descricion": "BULEVAR",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 14,
+      "descricion": "CALEXÓN / CALLEJON",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 15,
+      "descricion": "CALZADA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 16,
+      "descricion": "CAMIÑO / CAMINO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 17,
+      "descricion": "CARREIRA / CARRERA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 18,
+      "descricion": "CARREIRO / CARRERO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 19,
+      "descricion": "CARRETERA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 20,
+      "descricion": "CERRO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 21,
+      "descricion": "CINTURÓN",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 22,
+      "descricion": "CIRCUNVALACIÓN",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 23,
+      "descricion": "CMNO NOVO / NUEVO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 24,
+      "descricion": "CMNO VELLO / VIEJO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 25,
+      "descricion": "CORREDOIRA / CORREDERA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 26,
+      "descricion": "COSTA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 27,
+      "descricion": "ENTRADA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 28,
+      "descricion": "ESCALEIRA / ESCALERA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 29,
+      "descricion": "ESTRADA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 30,
+      "descricion": "EXPLANADA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 31,
+      "descricion": "FINCA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 32,
+      "descricion": "GLORIETA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 33,
+      "descricion": "LUGAR",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 34,
+      "descricion": "MALECÓN",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 35,
+      "descricion": "MIRADOR",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 36,
+      "descricion": "MONTE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 37,
+      "descricion": "PARQUE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 38,
+      "descricion": "PASAXE / PASAJE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 39,
+      "descricion": "PASEO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 40,
+      "descricion": "PLAZOLETA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 41,
+      "descricion": "POLÍGONO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 42,
+      "descricion": "PONTE / PUENTE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 43,
+      "descricion": "PRAIA / PLAYA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 44,
+      "descricion": "PRAZA / PLAZA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 45,
+      "descricion": "RECANTO / RINCON",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 46,
+      "descricion": "REIBEIRA / RIBERA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 47,
+      "descricion": "RONDA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 48,
+      "descricion": "ROTONDA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 49,
+      "descricion": "RÚA / CALLE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 50,
+      "descricion": "SENDA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 51,
+      "descricion": "TRAVESÍA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 52,
+      "descricion": "URBANIZACIÓN",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 53,
+      "descricion": "VAL / VALLE",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 54,
+      "descricion": "VEIGA / VEGA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 55,
+      "descricion": "VÍA",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 56,
+      "descricion": "VIADUCTO",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 57,
+      "descricion": "XARDÍN / JARDÍN",
+      "activo": "S"
+    },
+    {
+      "idTipovia": 58,
+      "descricion": "ZONA",
+      "activo": "S"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

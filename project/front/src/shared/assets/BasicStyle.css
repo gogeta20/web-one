@@ -1,0 +1,24 @@
+.titleSection {
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+.subrayado {
+  border-bottom: solid 2px var(--primary-color);
+}
+.strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.subTitleSection {
+  margin-top: 1.2rem;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.titulo {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+.colorAzul {
+  color: var(--primary-color);
+}

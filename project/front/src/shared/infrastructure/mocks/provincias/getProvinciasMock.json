@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "value": 15,
+      "province": "A Coruña"
+    },
+    {
+      "value": 27,
+      "province": "Lugo"
+    },
+    {
+      "value": 32,
+      "province": "Ourense"
+    },
+    {
+      "value": 36,
+      "province": "Pontevedra"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "buscarInstrumentos": {
+      "tipo": "PER",
+      "servicio": "",
+      "provincia": "",
+      "distrito": ""
+    },
+    "editarInstrumentos": {
+      "tipo": "PER",
+      "servicio": "",
+      "provincia": "",
+      "distrito": ""
+    },
+    "consultarInstrumentos": {
+      "tipo": "PER",
+      "servicio": "",
+      "provincia": "",
+      "distrito": ""
+    },
+    "consultarModelos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "editarAdhesion": {
+      "tipo": "PER",
+      "servicio": "",
+      "provincia": "",
+      "distrito": ""
+    }
+  },
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

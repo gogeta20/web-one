@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "idTitulacion": 1,
+      "descricionEs": "Ingeniería de montes",
+      "descricionGl": "Enxeñería de montes",
+      "activo": "S"
+    },
+    {
+      "idTitulacion": 2,
+      "descricionEs": "Ingeniería técnica forestal",
+      "descricionGl": "Enxeñería técnica forestal",
+      "activo": "S"
+    },
+    {
+      "idTitulacion": 3,
+      "descricionEs": "Grado en Ingeniería Forestal y del Medio Natural",
+      "descricionGl": "Grao en Enxeñería Forestal e do Medio Natural",
+      "activo": "S"
+    },
+    {
+      "idTitulacion": 4,
+      "descricionEs": "Máster Universitario en Ingenieria de Montes",
+      "descricionGl": "Máster Universitario en Enxeñería de Montes",
+      "activo": "S"
+    }
+  ],
+  "message": "A consulta foi realizada correctamente.",
+  "status": 200
+}

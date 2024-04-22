@@ -1,0 +1,88 @@
+{
+  "usuario": "ue08031",
+  "nombre": "Usuario Entorno Dev",
+  "tipoLogin": "ldap",
+  "logout": "",
+  "token": "f2fce764-65fb-4522-81b0-2292f9b6be29",
+  "contorna": ".dev",
+  "permissions": {
+    "buscarInstrumentos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "consultarInstrumentos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "consultarInstrumentosMigrados": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "consultarInstrumentosOcultos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "consultarModelos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "editarAdhesion": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "editarInstrumentos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "editarTecnicosInstrumento": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "runDailyTask": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "runMonthlyTask": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "runRoutineTask": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "verAvisosInternos": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    },
+    "verListadoNovasFiltroNivel": {
+      "tipo": "GAL",
+      "provincia": "",
+      "distrito": "",
+      "servizo": ""
+    }
+  }
+}
