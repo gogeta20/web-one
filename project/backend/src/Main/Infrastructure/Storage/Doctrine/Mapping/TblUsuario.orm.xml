@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Main\Domain\Model\TblUsuario" table="tbl_usuario">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <field name="uuid" type="string" column="uuid" length="36" nullable="false">
+            <options>
+                <option name="fixed"/>
+            </options>
+        </field>
+
+        <field name="usuario_login" type="string" column="usuario_login" length="60" nullable="false" />
+        <field name="contrasenha" type="string" column="contrasenha" length="255"  nullable="true" />
+        <field name="nombre_usuario_nicename" type="string" column="nombre_usuario_nicename" length="50" nullable="false" />
+        <field name="usuario_email" type="string" column="usuario_email" length="100" nullable="false" />
+        <field name="usuario_url" type="string" column="usuario_url" length="100" nullable="false" />
+        <field name="usuario_registro" type="datetime" column="usuario_registro" nullable="false" />
+        <field name="usuario_status" type="integer" column="usuario_status" nullable="false" />
+        <field name="display_name" type="string" column="display_name" length="250" nullable="false" />
+
+    </entity>
+</doctrine-mapping>

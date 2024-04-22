@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Main\Domain\Model\TblCategoria" table="tbl_categoria">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <field name="uuid" type="string" column="uuid" length="36" nullable="false">
+            <options>
+                <option name="fixed"/>
+            </options>
+        </field>
+
+        <field name="nombre" type="string" column="nombre" length="255" nullable="false" />
+        <field name="descripcion" type="text" column="descripcion"  nullable="true" />
+<!--        <field name="categoria_padre_id" type="integer" column="categoria_padre_id" nullable="true" />-->
+
+
+        <one-to-many field="categoria_padre_id" target-entity="TblCategoria" fetch="LAZY" mapped-by="id"/>
+    </entity>
+</doctrine-mapping>

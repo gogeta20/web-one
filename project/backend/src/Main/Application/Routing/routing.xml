@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing https://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route
+            id="home"
+            path="/"
+            methods="GET"
+            controller="App\Main\Application\Controller\Home\HomeController">
+    </route>
+
+    <route
+            id="check"
+            path="/check"
+            methods="GET"
+            controller="App\Main\Application\Controller\Health\CheckController">
+    </route>
+
+    <route
+            id="faker"
+            path="/faker"
+            methods="POST"
+            controller="App\Main\Application\Controller\Health\FakerController">
+    </route>
+
+    <route
+            id="login_basic"
+            path="/login"
+            methods="POST"
+            controller="App\Main\Application\Controller\Security\LoginBasicController">
+    </route>
+
+</routes>

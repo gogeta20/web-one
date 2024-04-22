@@ -1,0 +1,13 @@
+#controllers:
+#    resource:
+#        path: ../src/Controller/
+#        namespace: App\Controller
+#    type: attribute
+main:
+  resource:
+    '../src/Main/Application/Routing/routing.xml'
+#    '../src/Shared/Infrastructure/Routing/routing.xml'
+
+#index:
+#  path: /mau
+#  controller: App\Controller\Test\CheckController

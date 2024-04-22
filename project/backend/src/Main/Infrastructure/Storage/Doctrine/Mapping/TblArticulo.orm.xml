@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping https://www.doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+    <entity name="App\Main\Domain\Model\TblArticulo" table="tbl_articulo">
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+        <field name="uuid" type="string" column="uuid" length="36" nullable="false">
+            <options>
+                <option name="fixed"/>
+            </options>
+        </field>
+
+        <field name="titulo" type="string" column="titulo" length="255" nullable="true" />
+        <field name="contenido" type="text" column="contenido"  nullable="true" />
+        <field name="fecha" type="datetime" column="fecha" nullable="false" />
+        <field name="activo" type="integer" column="activo" nullable="false" />
+
+        <one-to-one field="autor_id" target-entity="TblAutor" fetch="LAZY" >
+            <join-columns>
+                <join-column name="autor_id" referenced-column-name="id"/>
+            </join-columns>
+        </one-to-one>
+
+        <one-to-one field="imagen" target-entity="TblImagen" fetch="LAZY">
+            <join-columns>
+                <join-column name="imagen" referenced-column-name="id"/>
+            </join-columns>
+        </one-to-one>
+    </entity>
+</doctrine-mapping>
