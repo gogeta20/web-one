@@ -4,7 +4,7 @@ import { UtilDates } from "@/core/utilities/UtilDates";
 import type { ModeloTableItem } from "@/shared/dominio/ModeloTableItem";
 import { classFila, containerTableBase } from "@/shared/views/BaseTable/BaseTableComposition";
 import type { ItemsBtns } from "@/shared/views/BaseTable/BaseTableInterface";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import Column from "primevue/column";
 import DataTable, { type DataTableRowSelectEvent } from "primevue/datatable";
 import { computed, ref, toRefs } from "vue";

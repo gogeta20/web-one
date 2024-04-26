@@ -1,38 +1,27 @@
 <script setup lang="ts">
 import { rootConfig } from "@/core/config/config";
 import MaqintFooter from "@/core/layout/maqintLayout/components/MaqintFooter.vue";
-import MaqintHeader from "@/core/layout/maqintLayout/components/MaqintHeader.vue";
 import MaqintMain from "@/core/layout/maqintLayout/components/MaqintMain.vue";
 import MaqintSidBar from "@/core/layout/maqintLayout/components/MaqintSidBar.vue";
-import BaseEnvironment from "@/core/common/BaseEnvironment.vue";
 import { useI18n } from "vue-i18n";
-import { ref } from "vue";
+import {computed, ref} from "vue";
+import {mainAppStore} from "@/auth/store/mainAppStore";
 const { t } = useI18n();
 
+const appStore = mainAppStore();
 const nombreApp = ref(rootConfig.nombreAPP);
 const versionApp = ref(rootConfig.version);
-const contorno = ref(rootConfig.contorno);
-const name = t('core.contornoPruebas');
-const isOpenSideBar = ref();
-const openSidBar = async () => {
-  isOpenSideBar.value = !isOpenSideBar.value;
-};
+const sidebarVisible = computed(() => appStore.openSidebar)
 </script>
 
 <template>
   <div class="bh-wrapper">
-    <BaseEnvironment :nombreApp="name" :environment="contorno" :versionApp="versionApp"/>
-    <MaqintHeader :isOpenSideBar="isOpenSideBar" @menu-toggle="openSidBar" />
-
     <main class="bh-main">
-      <MaqintSidBar :isOpenSideBar="isOpenSideBar" />
-      <section class="bh-main__page" :class="[{ 'bh-main__page--full-width': isOpenSideBar }]">
-        <MaqintMain :nombreApp="nombreApp">
-          <RouterView />
-        </MaqintMain>
-      </section>
+      <MaqintSidBar :is-open-side-bar="sidebarVisible"/>
+      <MaqintMain>
+        <RouterView />
+      </MaqintMain>
     </main>
-
     <MaqintFooter :nombreApp="nombreApp" :versionApp="versionApp" />
   </div>
 </template>
@@ -53,7 +42,7 @@ const openSidBar = async () => {
     margin-left: 0;
 
     &--full-width {
-      margin-left: calc(var(--sidbar-width) - 190px);
+      margin-left: calc(var(--sidbar-width) - 250px);
     }
   }
 }
@@ -64,7 +53,7 @@ const openSidBar = async () => {
       margin-left: var(--sidbar-width);
 
       &--full-width {
-        margin-left: calc(var(--sidbar-width) - 190px);
+        margin-left: calc(var(--sidbar-width) - 250px);
       }
     }
   }

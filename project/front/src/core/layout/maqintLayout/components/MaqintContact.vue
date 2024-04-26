@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Dialog from "primevue/dialog";
+//import Button from "primevue/dialog";
 import { useUsuarioStore } from "@/auth/store/usuarioStore";
 const usuarioStore = useUsuarioStore();
 interface Emits {

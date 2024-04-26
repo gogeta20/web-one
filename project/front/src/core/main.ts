@@ -1,6 +1,6 @@
 import App from "@/core/App.vue";
 // import "@/core/assets/css/awesomeFont.css";
-import "@/core/assets/css/variables.css";
+// import "@/core/assets/scss/variables.css";
 import "@/core/assets/scss/main.scss";
 import es from "@/core/i18n/locales/es.json";
 import gl from "@/core/i18n/locales/gl.json";
@@ -13,13 +13,13 @@ import router from "@/core/router";
 import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import { PiniaSharedState } from "pinia-shared-state";
-import "primeicons/primeicons.css";
-import BadgeDirective from "primevue/badgedirective";
-import PrimeVue from "primevue/config";
-import ConfirmationService from "primevue/confirmationservice";
-import "primevue/resources/primevue.min.css";
-import ToastService from "primevue/toastservice";
-import Tooltip from "primevue/tooltip";
+// import "primeicons/primeicons.css";
+// import BadgeDirective from "primevue/badgedirective";
+// import PrimeVue from "primevue/config";
+// import ConfirmationService from "primevue/confirmationservice";
+// import "primevue/resources/primevue.min.css";
+// import ToastService from "primevue/toastservice";
+// import Tooltip from "primevue/tooltip";
 import { createApp } from "vue";
 import { createI18n } from "vue-i18n";
 
@@ -51,12 +51,12 @@ pinia.use(
 app.use(pinia);
 app.use(router);
 app.use(i18n);
-app.use(PrimeVue);
-app.use(ToastService);
-app.use(ConfirmationService);
-
-app.directive("badge", BadgeDirective);
-app.directive("tooltip", Tooltip);
+// app.use(PrimeVue);
+// app.use(ToastService);
+// app.use(ConfirmationService);
+//
+// app.directive("badge", BadgeDirective);
+// app.directive("tooltip", Tooltip);
 
 // app.component("FontAwesomeIcon", FontAwesomeIcon);
 // app.component("FontAwesomeLayers", FontAwesomeLayers);

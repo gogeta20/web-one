@@ -2,8 +2,8 @@
 import { useUsuarioStore } from "@/auth/store/usuarioStore";
 import { usePageLoadStore } from "@/core/stores/pageLoad";
 import { UtilHelper } from "@/core/utilities/UtilHelper";
-import Button from "primevue/button";
-import Dialog from "primevue/dialog";
+//import Button from "primevue/button";
+//import Button from "primevue/dialog";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 const usuarioStore = useUsuarioStore();

@@ -26,32 +26,42 @@ function handleOpenSubMenu(id: string) {
     ? selectedItem.value.filter((item) => item !== id)
     : [...selectedItem.value, id];
 }
+
+const classes  = (id:string,type:string,selectedItem:Array<any>,isOpenSideBar:boolean) => {
+  isOpenSideBar = !isOpenSideBar;
+  if(selectedItem.includes(id) && type == 'main'){
+    return 'bh-open item-main';
+  }else if(selectedItem.includes(id) && type == 'second'){
+    return 'bh-open';
+  }
+  return '';
+}
+// :class="[{ 'bh-open': isOpenSideBar ? false : selectedItem.includes(item.id) }]"
 </script>
 <template>
   <ul>
     <li
-      v-for="item in dataTree"
-      :key="item.id"
-      class="bh-nav__item"
-      :class="[{ 'bh-open': isOpenSideBar ? false : selectedItem.includes(item.id) }]">
-      <a
-        v-if="item.children?.length > 0 && item.isVisible"
+        v-for="item in dataTree"
         :key="item.id"
-        href="#"
-        class="bh-nav__link bh-nav__link--dropdown"
-        @click="handleOpenSubMenu(item.id)">
-<!--        <FontAwesomeIcon :icon="item.icon" class="bh-nav__icon" />-->
+        class="bh-nav__item"
+        :class="classes(item.id, item.type,selectedItem,isOpenSideBar)"
+    >
+      <a
+          v-if="item.children?.length > 0 && item.isVisible"
+          :key="item.id"
+          href="#"
+          class="bh-nav__link bh-nav__link--dropdown"
+          @click="handleOpenSubMenu(item.id)">
         <span>{{ item.title }} </span>
-<!--        <FontAwesomeIcon :icon="['fa', 'chevron-down']" />-->
       </a>
       <BaseRouterLink
-        v-if="item.children?.length === 0 && item.isVisible"
-        :nombre="item.title"
-        :icon="item.icon"
-        class="bh-nav__link"
-        iconClass="bh-nav__icon"
-        :to="item.path"
-        @click="handleClickMenu(item.path)" />
+          v-if="item.children?.length === 0 && item.isVisible"
+          :nombre="item.title"
+          :icon="item.icon"
+          class="bh-nav__link"
+          iconClass="bh-nav__icon"
+          :to="item.path"
+          @click="handleClickMenu(item.path)" />
       <ul class="bh-nav bh-collapse">
         <MaqintMenu v-if="item.children?.length > 0" :dataTree="item.children" />
       </ul>
@@ -59,6 +69,17 @@ function handleOpenSubMenu(id: string) {
   </ul>
 </template>
 <style lang="scss" scoped>
+ul ul{
+  list-style: circle;
+  padding: 0;
+  margin: 0 0 0 18px;
+}
+.item-main{
+  border-left: solid 2px  var(--light-gray-second);
+}
+.item-main ul li a{
+  padding-left: .6rem !important;
+}
 .bh-sidebar--hidden {
   .bh-nav__link {
     justify-content: flex-end;
@@ -95,18 +116,20 @@ function handleOpenSubMenu(id: string) {
 
 .bh-nav {
   &__list {
-    list-style: none;
+    list-style: circle;
     padding: 0.2rem 0 0 0;
     margin: 0;
   }
 
   &__item {
+    padding: 5px 5px;
     position: relative;
-    display: block;
+    //display: block;
     color: #ffffff;
   }
 
   &__link {
+    border-radius: 5px;
     align-items: center;
     gap: 0.5rem;
     color: inherit;
@@ -120,14 +143,14 @@ function handleOpenSubMenu(id: string) {
     transition: all 0.15s linear;
 
     &:hover {
-      background-color: var(--light-blue);
+      background-color: var(--light-gray-second);
     }
 
     &.router-link-exact-active {
-      background-color: var(--light-blue);
-
+      background-color: var(--light-gray-second);
+      border: 2px solid var(--main-green);
       &:hover {
-        background-color: #070b0e;
+        background-color: var(--light-gray-second);
       }
     }
 
@@ -140,11 +163,6 @@ function handleOpenSubMenu(id: string) {
       position: relative;
       color: #fff;
     }
-  }
-
-  :deep(.bh-nav__icon) {
-    font-size: 1.2rem;
-    color: #fff;
   }
 }
 
@@ -166,7 +184,24 @@ function handleOpenSubMenu(id: string) {
 }
 
 .bh-open > .bh-nav__link--dropdown {
-  background-color: #074d8781;
+  background-color: var(--light-gray-second);
+  //border: 2px solid var(--main-green);
+}
+
+.bh-open > .bh-nav__link--dropdown:after {
+  content: '\2303';
+  font-size: 1rem;
+  margin-top: 6px;
+}
+
+.bh-nav__link--dropdown{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bh-nav__link--dropdown:after {
+  //content: '\25BF';
+  content: '\2304';
 }
 
 .bh-open .bh-collapse .bh-nav__link {
@@ -223,5 +258,15 @@ function handleOpenSubMenu(id: string) {
   background-position: left;
   background-size: 1px 5px;
   background-repeat: repeat-y;
+}
+
+svg.fa-chevron-down {
+  top: 12px;
+  transform: rotate(180deg);
+}
+
+.bh-open svg.fa-chevron-down {
+  top: 12px;
+  transform: initial;
 }
 </style>

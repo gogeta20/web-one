@@ -1,0 +1,103 @@
+version: '3'
+services:
+  back:
+    image: public.ecr.aws/e6k1b4j9/bahia/amtega_php81:latest
+    build:
+      context: .
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+        #      - "${SOURCE_ROOT}:${APP_SOURCE_PATH}:rw"
+      - "${SOURCE_PUBLIC_ROOT}:${APP_PUBLIC_PATH}:rw"
+      - "${SOURCE_CONFIG}:${apps_config_path}:rw"
+      - "${SOURCE_LOG_PATH}:${apps_log_path}:rw"
+      - "${SOURCE_DATA_PATH}:${apps_data_path}:rw"
+      - "${SOURCE_CERT_PATH}:${apps_cert_path}:rw"
+      - "${SOURCE_TEMP_PATH}:${apps_temp_path}:rw"
+      - "${SOURCE_CONFIGURED_PATH}:/var/www/configuredPaths:rw"
+      - "${SOURCE_TNS}:${CUSTOM_TNS_ADMIN}:rw"
+      - "app-volume:${VUE_BACK_COMPILADO}:rw"
+      - "${SOURCE_RESOURCES_PATH}:${apps_resources_path}:rw"
+    env_file: .env
+    ports:
+      - "443:443"
+    stdin_open: true
+    tty: true
+    container_name: ${APP_NAME}-backend
+    environment:
+      PHP_MEMORY_LIMIT: ${PHP_MEMORY}
+      apps_domain: ${SERVER_NAME}
+      apps_config_path: ${apps_config_path}
+      apps_log_path: ${apps_log_path}
+      apps_data_path: ${apps_data_path}
+      apps_cert_path: ${apps_cert_path}
+      apps_temp_path: ${apps_temp_path}
+      TNS_ADMIN: ${CUSTOM_TNS_ADMIN}
+      XDEBUG_CONFIG: remote_host= ${IP}
+    dns:
+      - 192.168.11.11
+      - 10.180.188.75
+    dns_search: bahia.net
+    extra_hosts:
+      - "bahia11s:192.168.11.10"
+      - "sedegl-idbroker-ext.dev.xunta.local:10.180.193.51"
+      - "portasinaturas.stg.xunta.local:10.180.192.75"
+      - "notifica.dev.xunta.local:10.180.193.51"
+      - "stg-oraclecm-c01-0001.xunta.local:10.180.172.50"
+      - "dev-oracle-c04.xunta.local:10.113.32.103"
+      - "dev-oraclecm-c01-0002.xunta.local:10.180.180.51"
+      - "dev-oraclecm-c01-0001.xunta.local:10.180.180.50"
+    networks:
+      app-network:
+        aliases:
+            - php
+  front:
+    image:  node:18-alpine
+    restart: unless-stopped
+    env_file: .env
+    working_dir: /app
+    volumes:
+      - ${VUE_REPO_DIST}:/app:rw
+      - "app-volume:${VUE_FRONT_SRC}:rw"
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+      - "3002:3002"
+      - "3003:3003"
+      - "5173:5173"
+    container_name: ${APP_NAME}-frontend
+    dns:
+      - 192.168.11.11
+      - 10.180.188.75
+    dns_search: bahia.net
+    #entrypoint: /bin/sh
+    stdin_open: true
+    command: "/usr/local/bin/npm run dev"
+    #CMD [ "npm", "run", "dev" ]
+    tty: true
+    environment:
+        CYPRESS_CACHE_FOLDER: /app/.cache
+    extra_hosts:
+      - "bahia11s:192.168.11.10"
+      - "sedegl-idbroker-ext.dev.xunta.local:10.180.193.51"
+      - "portasinaturas.stg.xunta.local:10.180.192.75"
+      - "notifica.dev.xunta.local:10.180.193.51"
+      - "stg-oraclecm-c01-0001.xunta.local:10.180.172.50"
+      - "dev-oracle-c04.xunta.local:10.113.32.103"
+      - "dev-oraclecm-c01-0002.xunta.local:10.180.180.51"
+      - "dev-oraclecm-c01-0001.xunta.local:10.180.180.50"
+    networks:
+      app-network:
+        aliases:
+            - vue
+networks:
+  app-network:
+    driver: bridge
+    ipam:
+        driver: default
+        
+
+volumes:
+  app-volume:
+
+

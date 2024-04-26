@@ -4,7 +4,7 @@ import BaseInput from "@/core/common/BaseInput.vue";
 import { UtilHelper } from "@/core/utilities/UtilHelper";
 import { titulacionInicial, type Titulacion } from "@/shared/dominio/Titulacion";
 import { viasInicial } from "@/shared/dominio/Vias";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import Dropdown from "primevue/dropdown";
 import { onMounted, ref, toRefs } from "vue";
 const formBasic = useFormBasic();

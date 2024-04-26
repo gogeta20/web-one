@@ -25,6 +25,8 @@ const USER_EXTRANET = "casExtranet";
 export const useUsuarioStore = defineStore("usuario", {
   state: () => {
     return {
+      // openSidebar: false,
+      // logoImage: false,
       roles: [],
       datos: {
         userId: "",
@@ -40,6 +42,9 @@ export const useUsuarioStore = defineStore("usuario", {
     };
   },
   actions: {
+    // switchSidebar(){
+    //   this.openSidebar = !this.openSidebar;
+    // },
     async check($nameCookie: string) {
       const meCookies =
         rootConfig.environment === "preview"

@@ -7,7 +7,7 @@ import {
   footerResolve,
 } from "@/shared/views/BaseTable/BaseTableComposition";
 import type { ItemsBtns } from "@/shared/views/BaseTable/BaseTableInterface";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import Column from "primevue/column";
 import ConfirmPopup from "primevue/confirmpopup";
 import DataTable, {

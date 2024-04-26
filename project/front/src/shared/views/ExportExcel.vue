@@ -16,7 +16,7 @@ import { exportDataGrid } from "devextreme/excel_exporter";
 import { loadMessages, locale } from "devextreme/localization";
 import { Workbook } from "exceljs";
 import saveAs from "file-saver";
-import Dialog from "primevue/dialog";
+//import Button from "primevue/dialog";
 import { toRefs } from "vue";
 
 loadMessages(I18nGL);

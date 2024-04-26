@@ -17,6 +17,16 @@ const routes = [
     component: () => import("@/core/layout/maqintLayout/MaqintLayout.vue"),
     children: [...inicioRouter],
   },
+  {
+    name: "about",
+    path: "/about",
+    component: () => import("@/core/layout/maqintLayout/MaqintLayout.vue"),
+  },
+  {
+    name: "contact",
+    path: "/contact",
+    component: () => import("@/core/layout/maqintLayout/MaqintLayout.vue"),
+  },
   // {
   //   name: "altasPO",
   //   path: "/proxecto-ordenacion",

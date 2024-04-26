@@ -2,7 +2,7 @@
 import { useUsuarioStore } from "@/auth/store/usuarioStore";
 import { useI18nStore } from "@/core/i18n/store/i18nStore";
 import MaqintSelect from "@/core/layout/maqintLayout/components/MaqintSelect.vue";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import { onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 const { t, locale } = useI18n();

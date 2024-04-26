@@ -4,9 +4,12 @@ import BaseShowAyuda from "@/core/layout/maqintLayout/components/Ayuda/MaqintSho
 import BaseChangeLanguage from "@/core/layout/maqintLayout/components/MaqintChangeLanguage.vue";
 import MaqintConfimLogout from "@/core/layout/maqintLayout/components/MaqintConfirmLogout.vue";
 import BaseShowNotifications from "@/core/layout/maqintLayout/components/MaqintShowNotifications.vue";
-import Button from "primevue/button";
+import MaqintHeader from "@/core/layout/maqintLayout/components/MaqintHeader.vue";
+import {mainAppStore} from "@/auth/store/mainAppStore";
+const appStore = mainAppStore();
 import { defineComponent, onUnmounted, ref } from "vue";
 import { RouterLink } from "vue-router";
+import {rootConfig} from "@/core/config/config";
 
 defineComponent({
   name: "BaseHeader",
@@ -34,11 +37,11 @@ const emit = defineEmits(["menu-toggle"]);
 const isOpenDropdown = ref(false);
 const isOpenLogoutConfirm = ref(false);
 
-function onMenuToggle(event: Event) {
-  event.preventDefault();
-  emit("menu-toggle", event);
-  event.stopPropagation();
-}
+// function onMenuToggle(event: Event) {
+//   event.preventDefault();
+//   emit("menu-toggle", event);
+//   event.stopPropagation();
+// }
 
 const closeDropdown = () => {
   if (isOpenDropdown.value) isOpenDropdown.value = false;
@@ -57,31 +60,44 @@ const onLogout = async () => {
 const handlerLogout = () => {
   isOpenLogoutConfirm.value = false;
 };
+
 </script>
 
 <template>
   <MaqintConfimLogout :visible="isOpenLogoutConfirm" @cancelLogout="handlerLogout" />
   <header class="bh-header">
     <main class="bh-header__main">
-      <router-link to="/inicio" class="bh-header__logo">
-        <img :alt="nombreApp" :src="imgLogo" lazy width="130" height="30" />
-        <span class="sr-only">{{ nombreApp }}</span>
-      </router-link>
-      <button type="button" class="bh-header__toggle" @click="onMenuToggle">
-        <span
-          class="glyphicon"
-          :class="[
-            { 'glyphicon-option-vertical spin-animation': isOpenSideBar },
-            { 'glyphicon-menu-hamburger': !isOpenSideBar },
-            {
-              'glyphicon-menu-hamburger spin-reverse-animation': isOpenSideBar === false,
-            },
-          ]" />
+      <button type="button" class="bh-header__toggle" @click="appStore.switchSidebar">
+        <i class="fa-solid fa-bars"></i>
       </button>
+      <div class="bh-controls">
+        <nav>
+          <ul class="menu-header__ul">
+            <li>
+              UNO
+            </li>
+            <li>
+              dos
+            </li>
+            <li>
+              tres
+            </li>
+            <li>
+              tres
+            </li>
+            <li>
+              tres
+            </li>
+            <li>
+              tres tres tres
+            </li>
+          </ul>
+        </nav>
+      </div>
     </main>
     <div class="bh-controls">
       <nav>
-        <ul class="bh-controls__list flex justify-content-end margin-0">
+        <ul class="bh-controls__list flex margin-0">
           <li>
             <BaseShowNotifications />
           </li>
@@ -95,26 +111,27 @@ const handlerLogout = () => {
       </nav>
     </div>
     <div class="bh-profile">
-      <div class="bh-profile__picture">
-        <img
-          alt="Imaxe do/a usuario/a"
-          class="bh-profile__img"
-          src="/images/user/user-image-mini.png"
-          lazy
-          width="40"
-          height="40" />
-      </div>
+<!--      <div class="bh-profile__picture">-->
+<!--        <img-->
+<!--          alt="Imaxe do/a usuario/a"-->
+<!--          class="bh-profile__img"-->
+<!--          src="/images/user/user-image-mini.png"-->
+<!--          lazy-->
+<!--          width="40"-->
+<!--          height="40" />-->
+<!--      </div>-->
       <div class="bh-profile__info">
         <div class="bh-profile__name">
           {{ usuarioStore.datos.nombre }}
+          mauricio
         </div>
       </div>
     </div>
 
     <div class="bh-logout">
-      <Button class="p-button-rounded p-button-text bh-logout__link" @click="onLogout">
-<!--        <FontAwesomeIcon icon="power-off" />-->
-      </Button>
+      <button class="p-button-rounded p-button-text bh-logout__link" @click="onLogout">
+        <i class="fa-solid fa-power-off"></i>
+      </button>
     </div>
   </header>
 </template>
@@ -135,7 +152,7 @@ const handlerLogout = () => {
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    width: var(--sidbar-width);
+    //width: 50%;
     border-right: 2px solid #eee;
     padding: 0 1rem;
   }
@@ -157,7 +174,7 @@ const handlerLogout = () => {
     display: flex;
     border: none;
     background-color: transparent;
-
+    margin-right: 1rem;
     span {
       color: #555;
       font-size: 1.4rem;
@@ -176,6 +193,12 @@ const handlerLogout = () => {
     &:hover {
       transform: scale(0.9);
     }
+  }
+}
+.menu-header{
+  &__ul{
+    display: flex;
+    gap: 2rem;
   }
 }
 
@@ -235,8 +258,8 @@ const handlerLogout = () => {
 
   .bh-logout__link {
     // padding: 0.5rem 1rem;
-    color: #f32727;
-    font-size: 2rem;
+    color: #c65a5a;
+    font-size: 1rem;
   }
 }
 

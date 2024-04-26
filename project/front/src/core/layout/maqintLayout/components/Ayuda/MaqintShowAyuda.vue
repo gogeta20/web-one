@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MaqintSelectAyuda from "@/core/layout/maqintLayout/components/Ayuda/MaqintSelectAyuda.vue";
 import router from "@/core/router";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 
@@ -12,9 +12,9 @@ function clickShowAyuda() {
 
 <template>
   <MaqintSelectAyuda>
-    <Button class="p-button-text bh-control" @click="clickShowAyuda">
-      <em class="glyphicon glyphicon-question-sign" style="font-size: 1.5rem" />
-    </Button>
+    <button class="p-button-text bh-control" @click="clickShowAyuda">
+      <i class="fa-solid fa-circle-info"></i>
+    </button>
   </MaqintSelectAyuda>
 </template>
 

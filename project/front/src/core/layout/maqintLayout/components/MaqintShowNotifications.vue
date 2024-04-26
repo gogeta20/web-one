@@ -2,7 +2,7 @@
 import MaqintSelectNotificaciones from "@/core/layout/maqintLayout/components/MaqintSelectNotificaciones.vue";
 import { useNotifications } from "@/core/stores/NotificationsStore";
 import type { Notificaciones } from "@/shared/dominio/notificaciones/Notificaciones";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import { computed, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
@@ -45,13 +45,9 @@ onMounted(() => {
 
 <template>
   <MaqintSelectNotificaciones>
-    <Button class="p-button-text bh-control" @click="clickGetNotificaciones">
-      <em class="glyphicon glyphicon-bell" style="font-size: 1.5rem" />
-      <span v-if="numeroNotificaciones === 0" class="bh-notification-zero">{{
-        numeroNotificaciones
-      }}</span>
-      <span v-else class="bh-notification">{{ numeroNotificaciones }}</span>
-    </Button>
+    <button id="startButton" @click="clickGetNotificaciones()">
+      <i class="fa-solid fa-fire"></i>
+    </button>
 
     <template #menu>
       <div v-if="!loadingNotificaciones && notificaciones.length > 0">

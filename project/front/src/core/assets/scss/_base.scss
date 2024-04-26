@@ -47,13 +47,6 @@ body {
 .colorAzul {
   color: var(--primary-color);
 }
-.bh-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
 
 .bh-field {
   display: flex;
@@ -202,4 +195,9 @@ label {
   .p-picklist-target-controls {
     display: none;
   }
+}
+
+button{
+  border: 0;
+  background: transparent;
 }

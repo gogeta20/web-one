@@ -23,14 +23,24 @@
   /* Grisis */
   --light-gray: #ddd;
   --medium-gray: #666;
-  --dark-gray: #19242f;
+  --dark-gray: #212631; //--dark-gray: #19242f;#212631
+  --light-gray-second: #2a303d;
+  --light-gray-third: #384151;
+
+  /* greens */
+  --dark-green: #3b5730;
+  --main-green: #1f8158;
+  --medium-green: #3b5730;
+  --light-green: #3b5730;
+
+
 
   /* Fuente */
   --text-color: #444444;
   --text-color-secondary: #787878;
 
   --font-family: Roboto, sans-serif;
-  --font-size: 14px;
+  --font-size: 1rem;
   --font-size-small: 0.991rem;
 
   --content-padding: 1rem;
@@ -40,7 +50,8 @@
   --header-height-min: 35px;
   --header-height: 55px;
   --footer-height: 50px;
-  --sidbar-width: 240px;
+  --sidbar-width: 250px;
+  --sidbar-width-negative: -250px;
 
   --maskbg: rgba(0, 0, 0, 0.4);
 

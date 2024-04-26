@@ -5,13 +5,14 @@ import type { NoticeToShow } from "@/inicio/dominio/NoticeToShow";
 import { dateEdit, dateLimit, dateToday, formatSend } from "@/inicio/dominio/services/NovasFormat";
 import { checkAviso } from "@/inicio/infrastructure/useCases/CheckAviso";
 import { useNovasStore } from "@/inicio/store/novasStore";
+import Article from "@/shared/views/article/Article.vue";
 import router from "@/core/router";
-import Button from "primevue/button";
-import Calendar from "primevue/calendar";
-import Column from "primevue/column";
-import DataTable from "primevue/datatable";
-import Dropdown from "primevue/dropdown";
-import InputText from "primevue/inputtext";
+// //import Button from "primevue/button";
+// import Calendar from "primevue/calendar";
+// import Column from "primevue/column";
+// import DataTable from "primevue/datatable";
+// import Dropdown from "primevue/dropdown";
+// import InputText from "primevue/inputtext";
 import { onMounted, ref, watch } from "vue";
 import { useI18n } from "vue-i18n";
 
@@ -181,252 +182,68 @@ function hiddenElement(d: NoticeToShow) {
 </script>
 
 <template>
-  <div class="filters">
-    <div v-if="permissionFiltroNivel">
-      <label>{{ t("inicio.ambitoText") }}</label>
-      <Dropdown v-model="ambitSelected" :options="ambits" optionLabel="ambit" />
+  <header>
+    <h1>Cool Articles</h1>
+  </header>
+  <div class="band">
+    <div class="item-1">
+      <a href="https://design.tutsplus.com/articles/international-artist-feature-malaysia--cms-26852" class="card">
+        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);"></div>
+        <article>
+          <h1>International Artist Feature: Malaysia</h1>
+          <span>Mary Winkler</span>
+        </article>
+      </a>
     </div>
-    <div class="filters-states">
-      <label>{{ t("inicio.state.title") }}</label>
-      <Dropdown
-        v-model="stateSelected"
-        :options="states"
-        optionLabel="state"
-        :placeholder="t('inicio.state.noLidas')" />
-    </div>
-    <div class="filters-text">
-      <label>{{ t("inicio.texto") }}</label>
-      <InputText v-model="value1" type="text" :placeholder="t('inicio.texto')" />
-    </div>
-    <div class="flex gap-3">
-      <div class="align-self-end">
-        <Button
-          label=""
-          icon="pi pi-calendar"
-          class="p-button-success p-button-rounded"
-          iconPos="left"
-          @click="calendarFlip" />
-      </div>
-      <div>
-        <div v-show="!flipCalendar">
-          <label>{{ t("inicio.rango") }}</label>
-          <Dropdown v-model="timeSelected" :options="times" optionLabel="time" />
-        </div>
-        <div v-show="flipCalendar">
-          <div class="flex gap-2">
-            <div>
-              <label>{{ t("inicio.desde") }}</label>
-              <Calendar
-                id="iconIni"
-                v-model="dateSelectedIni"
-                :showIcon="true"
-                :disabledDays="[0, 6]"
-                :manualInput="false"
-                :showButtonBar="true"
-                :maxDate="dateSelectedLast" />
-            </div>
+    <Article
+        href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724"
+        image="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"
+        title="How to Code a Scrolling “Alien Lander” Website"
+        description="We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down."
+        signe="Kezz Bracey"
+    />
+    <Article
+        href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724"
+        image="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"
+        title="How to Code a Scrolling “Alien Lander” Website"
+        description="We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down."
+        signe="Kezz Bracey"
+    />
+    <Article
+        href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724"
+        image="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"
+        title="How to Code a Scrolling “Alien Lander” Website"
+        description="We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down."
+        signe="Kezz Bracey"
+    />
+  </div>
 
-            <div @click="limitDateListenterDiv()" @keydown.tab="keyTab">
-              <label>{{ t("inicio.hasta") }}</label>
-              <Calendar
-                id="iconLast"
-                v-model="dateSelectedLast"
-                :showIcon="true"
-                :disabledDays="[0, 6]"
-                :manualInput="false"
-                :showButtonBar="true"
-                :minDate="minCalendarValue"
-                :maxDate="todayCalendar" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="filters-item buttonSection">
-      <Button iconPos="left" :loading="loading" @click="onSearch">
-        <span class="pi pi-search" />
-      </Button>
-    </div>
-  </div>
-  <div class="container-novas-list">
-    <DataTable
-      v-model:expandedRowGroups="expandedRowGroups"
-      :stripedRows="false"
-      :value="novas"
-      class="p-datatable-customers"
-      :paginator="true"
-      dataKey="id"
-      :loading="loading"
-      :rows="30">
-      <Column field="content" filterMatchMode="startsWith" :sortable="false">
-        <template #body="{ data }">
-          <div :id="'TheDiv-' + data.id" :class="'container-main ' + data.mainContainer">
-            <div :class="'container-avisos ' + data.background">
-              <div class="flex justify-content-between">
-                <div class="bold container-title flex align-items-center">
-                  <div class="container-icon">
-<!--                    <FontAwesomeIcon :icon="data.icon" />-->
-                  </div>
-                  <div class="p-1r">
-                    {{ data.title }}
-                  </div>
-                </div>
-                <div class="bold">
-                  {{ data.date }}
-                </div>
-              </div>
-              <div class="container-content flex justify-content-between">
-                <div>
-                  <span v-html="data.content" />
-                </div>
-                <div v-if="!data.btn" class="flex gap-2 align-self-end">
-                  <Button
-                    v-show="data.type"
-                    :id="'TheBtnInst-' + data.id"
-                    v-tooltip.left="'Ver'"
-                    label=""
-                    icon="pi pi-send"
-                    class="p-button-rounded p-button-outlined"
-                    iconPos="left"
-                    @click="goInstrumento(data)" />
-                  <Button
-                    v-show="data.type"
-                    :id="'TheBtn-' + data.id"
-                    v-tooltip.left="'Marcar como lido'"
-                    label=""
-                    icon="pi pi-check"
-                    class="p-button-rounded p-button-outlined"
-                    iconPos="left"
-                    @click="checkToReadAviso(data)" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </template>
-      </Column>
-    </DataTable>
-  </div>
 </template>
 
 <style lang="scss" scoped>
-.filters {
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0;
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
 
-  .filters-text {
-    width: 70%;
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
   }
 
-  .filters-item.buttonSection {
-    display: flex;
-
-    button {
-      margin: 0 0 0 auto;
-      margin-top: 1.8rem;
-    }
-  }
-}
-
-.novaPrivate {
-  padding-bottom: 1rem;
-  display: none;
-  background-color: red;
-}
-.novaPublic {
-  padding-bottom: 1rem;
-}
-.avisosMain {
-  padding-bottom: 1rem;
-}
-.container-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 9999px;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.container-title {
-  font-size: 1.1rem;
-  font-style: italic;
-  margin-bottom: 3px;
-}
-.container-content {
-  padding: 1rem;
-}
-
-.novasClass {
-  background-color: #38bdf866;
-}
-.avisosClass {
-  background-color: #ffbf8266;
-}
-.container-avisos {
-  padding: 1rem;
-  border-radius: 5px;
-}
-::v-deep(.p-paginator) {
-  .p-paginator-current {
-    margin-left: auto;
+  @media (min-width: 60em) {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-::v-deep(.p-progressbar) {
-  height: 0.5rem;
-  background-color: #d8dadc;
-
-  .p-progressbar-value {
-    background-color: #607d8b;
-  }
-}
-
-::v-deep(.p-datepicker) {
-  min-width: 25rem;
-
-  td {
-    font-weight: 400;
-  }
-}
-
-::v-deep(.p-datatable.p-datatable-customers) {
-  .p-datatable-header {
-    padding: 1rem;
-    text-align: left;
-    font-size: 1.5rem;
-  }
-
-  .p-paginator {
-    padding: 1rem;
-  }
-
-  .p-datatable-thead > tr > th {
-    text-align: left;
-  }
-
-  .p-datatable-tbody > tr > td {
-    cursor: auto;
-    border: none;
-    padding: 6px 0;
-  }
-
-  .p-dropdown-label:not(.p-placeholder) {
-    text-transform: uppercase;
-  }
-  .p-datatable-tbody > tr > td {
-    padding: 0 0;
-  }
-}
-@media (max-width: 910px) {
-  #container-avisos {
-    display: block !important;
-  }
-
-  .container-novas-list .container-main {
-    width: 100%;
-  }
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 </style>

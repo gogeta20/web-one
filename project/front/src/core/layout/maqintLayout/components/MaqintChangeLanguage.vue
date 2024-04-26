@@ -3,7 +3,7 @@ import { useUsuarioStore } from "@/auth/store/usuarioStore";
 import { useI18nStore } from "@/core/i18n/store/i18nStore";
 import MaqintSelect from "@/core/layout/maqintLayout/components//MaqintSelect.vue";
 import { usePageLoadStore } from "@/core/stores/pageLoad";
-import Button from "primevue/button";
+//import Button from "primevue/button";
 import { onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 import { useRouter } from "vue-router";
@@ -32,10 +32,10 @@ onMounted(() => {
 
 <template>
   <MaqintSelect>
-    <Button class="p-button-text bh-control">
-      <em class="glyphicon glyphicon-globe" style="font-size: 1.5rem" />
+    <button class="p-button-text bh-control">
+      <i class="fa-solid fa-language"></i>
       <span class="bh-notification">{{ locale }}</span>
-    </Button>
+    </button>
 
     <template #menu>
       <ul>
